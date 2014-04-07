@@ -1,0 +1,37 @@
+.container {
+    min-width: 1024px;
+    min-width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1024?'1024px':'100%');
+}
+
+.search_contacts_site {
+    width: 320px;
+    height: 179px;
+    background: url(../images/searchandcont2.png) right top no-repeat;
+}
+
+.search_site {
+    width: 320px;
+    height: 66px;
+    text-align: right;
+}
+
+    .searchinp {
+        width: 154px;
+        margin-left: 122px;
+        margin-top: 28px;
+        border: none;
+        background: none;
+        color: #c0bfb2;
+        float: left;
+    }
+    
+    .find {
+        float: left;
+        position: relative;
+        margin-top: 29px;
+        margin-left: -1px;
+    }
+    
+.padding_prod {
+    padding-left: 45px;
+}

@@ -1,0 +1,455 @@
+/* html and css coding by macgera.org.ua */
+
+body {margin: 0; padding:0px; background: #000 url(images/body1.jpg) no-repeat top center; color:#000; font-family: Verdana; font-size: 8pt;}
+
+/*---Global tags---*/
+img {border:0;}
+form {padding:0; margin:0;}
+
+a {color:#0069bf; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+h1, h2, h3, h4 {margin: 0;}
+h1 {color: #8b3b05; font-size: 12pt;}
+h2 {color: #8b3b05;}
+h3 {color: #8b3b05;}
+h4 {}
+
+ul {margin: 0; padding: 0; list-style: none;}
+ul li {}
+
+p {line-height: 180%;}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+td {margin: 0; padding: 0; vertical-align: top;}
+th {text-align: left; vertical-align: top;}
+
+quote {padding: 5px;border: 1px dashed gray;background: white;margin-bottom: 15px;}
+
+div {text-align: left;}
+
+.left {float: left;}
+.right {float: right;}
+
+.half {width: 50%;}
+
+.red {
+    color: #c30808;
+}
+
+.wh {
+    color: #fff;
+}
+
+.gray {
+    color: gray;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.cl {clear:both; font-size:0;}
+
+/* End global tags */
+
+.container {
+    width: 1024px;
+    background: #000 url(images/body2.jpg) no-repeat bottom center;
+
+}
+
+.title_site {
+    height: 20px;
+    padding: 18px 40px 0 50px;
+    margin-top: 8px;
+}
+
+    .phone {
+        width: 951px;
+        position: absolute;
+        padding-top: 10px;
+        top: 0;
+        text-align: right;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #f6f0ce;
+        float: right;
+        padding-right: 75px;
+    }
+    
+    .title_site h2 {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 9pt;
+        font-weight: bold;
+        color: #c9c9b9;
+        margin-bottom: 0;
+        padding-top: 3px;
+    }
+    
+    .inputs {
+        margin-right: 20px;
+        font-size: 8pt;
+        font-weight: bold;
+        font-style: italic;
+        color: #f6f0ce;
+    }
+    
+    .inputs input {
+        width: 132px;
+        height: 12px;
+        border: none;
+        position: relative;
+        top: 0px;
+        margin-left: 2px;
+        font-size: 8pt;
+        padding: 2px;
+    }
+    
+.flash_block1 {
+    width: 986px;
+    height: 227px;
+    background: #808080;
+}
+
+.logo {
+    margin-top: -32px;
+    padding-top: 32px;
+    height: 56px;
+    padding-right: 5px;
+    background: url(images/decor.png) top center no-repeat;
+}
+
+    .no-margin {
+        margin-top: 32px;
+        margin-bottom: 48px;
+        background: url(images/decor2.png) top center no-repeat;
+    }
+
+    .logo img {
+        margin: 20px 0 0 90px;
+    }
+    
+    .flash_page {
+        margin: -50px 0 0 55px;
+        float: left;
+        width: 373px;
+        height: 131px;
+        background: #7b7777;
+    }
+
+    .logo ul {
+        float: right;
+        padding-top: 2px;
+    }
+
+    .logo ul li.first {
+        padding: 0 14px 0 0;
+        border-left: none;
+    }
+
+    .logo ul li {
+        display: inline;
+        padding: 0 14px 0 14px;
+        border-left: 2px solid #c9c9b9;
+    }
+    
+    .logo ul li a {
+        font-size: 9pt;
+        font-weight: bold;
+        color: #c9c9b9;
+    }
+    
+.menu1 {
+    background: url(images/menu1.png) no-repeat top center;
+    width: 1002px;
+    height: 26px;
+    padding-top: 4px;
+}
+
+    .menu1 li.first {
+        padding: 0 14px 0 0;
+        border-left: none;
+    }
+
+    .menu1 li {
+        display: inline;
+        padding: 0 17px 0 17px;
+        border-left: 2px solid #f6f0ce;
+    }
+    
+    .menu1 li a {
+        font-size: 10pt;
+        font-weight: bold;
+        color: #f6f0ce;
+    }
+    
+
+.menu2 {
+    background: url(images/menu2.png) no-repeat top center;
+    width: 920px;
+    height: 21px;
+    padding-top: 4px;
+}
+
+    .menu2 li.first {
+        padding: 0 14px 0 4px;
+        border-left: none;
+    }
+
+    .menu2 li {
+        display: inline;
+        padding: 0 17px 0 17px;
+        border-left: 2px solid #c9c9b9;
+    }
+    
+    .menu2 li a {
+        font-size: 7.5pt;
+        font-weight: bold;
+        color: #c9c9b9;
+    }
+    
+.lblock {
+    width: 182px;
+    height: 603px;
+    padding-top: 58px;
+    padding-right: 13px;
+    background: url(images/lblock.png) no-repeat right top;
+}
+
+    .lblock img {
+        border: 1px solid #c9c9b9;
+        margin-bottom: 10px;
+    }
+    
+    .input_left {
+        width: 174px;
+        text-align: right;
+        color: #f6f0ce;
+        font-weight: bold;
+    }
+
+    .input_left input {
+        float: left;
+        width: 126px;
+        height: 19px;
+        border: none;
+        margin-bottom: 8px;
+        padding: 2px;
+    }
+    
+    .input_left br {
+        clear: both;
+    }
+    
+    .input_left div {
+        float: right;
+        margin-top: 8px;
+    }
+    
+    .advenced {
+        display: block;
+        margin-top: 8px;
+        padding-top: 6px;
+        width: 174px;
+        height: 29px;
+        background: url(images/advenced.png) repeat-x top;
+        font-weight: bold;
+        color: #f6f0ce;
+        text-align: center;
+        font-size: 9pt;
+    }
+    
+    .localsnow {
+        padding-top: 131px;
+        background: url(images/localsnow.png) no-repeat top left;
+    }
+    
+    .cofee1 {
+        width: 178px;
+        height: 191px;
+        background: #ebebd4;
+    }
+
+.cblock {
+    width: 639px;
+    height: 644px;
+    padding-top: 19px;
+    background: url(images/cblock.png) no-repeat left top;
+}
+
+    .cofee2 {
+        width: 627px;
+        height: 644px;
+        background: #ebebd4;
+    }
+
+.rblock {
+    width: 190px;
+    height: 642px;
+    padding-top: 19px;
+}
+
+    .blog {
+        background: url(images/blog.png) no-repeat 0px 10px;
+        padding-top: 70px;
+    }
+
+    .cofee3 {
+        width: 182px;
+        height: 334px;
+        background: #ebebd4;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    
+    .orange {
+        color: #964b20;
+        font-weight: bold;
+    }
+    
+    .menu3 {
+        margin-top: 4px;
+    }
+    
+    .menu3 a {
+        display: block;
+        width: 181px;
+        height: 24px;
+        background: url(images/rlinks.png) repeat-x top;
+        text-align: center;
+        font-size: 9pt;
+        font-weight: bold;
+        color: #f6f0ce;
+        padding-top: 2px;
+    }
+
+.lpage {
+    padding-left: 67px;
+}
+
+    .lpage_block {
+        width: 353px;
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+    
+        .desc {
+            height: 222px;
+            color: #f6f0ce;
+        }
+        
+        .googlemap {
+            height: 228px;
+            background: #ebebd4;
+            margin-bottom: 12px;
+        }
+        
+        .pagelinks a {
+            float: left;
+            display: block;
+            width: 170px;
+            height: 28px;
+            padding-top: 4px;
+            background: url(images/pagelink.png) repeat-x top;
+            text-align: center;
+            font-size: 10pt;
+            font-weight: bold;
+            color: #f6f0ce;
+            margin-bottom: 12px;
+        }
+        
+            .rlink {
+                margin-left: 13px;
+            }
+            
+            .pagelinks a.bottlink {
+                width: 353px;
+            }
+
+.rpage {
+    padding-top: 89px;
+}
+
+    .big_item {
+        margin-bottom: 12px;
+    }
+
+    .gallpage {
+        width: 495px;        
+    }
+    
+    .gallpage img {
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .gallpage img.nomargin {
+        margin-right: 0px;
+    }
+    
+.techinfo {
+    background: #000;
+    color: #f4efdd;
+}
+
+    .techinfo strong {
+        color: #fff;
+    }
+    
+    .linfo {
+        width: 368px;
+        padding-left: 88px;
+        padding-right: 47px;
+        padding-top: 10px;
+    }
+    
+    .infoblock {
+        margin-bottom: 20px;
+    }
+    
+    .linfo li {
+        clear: both;
+    }
+    
+    .linfo li div {
+        float: left;
+        width: 106px;
+    }
+    
+    .rinfo {
+        width: 448px;
+        padding-right: 73px;
+        padding-top: 10px;
+    }
+    
+    .rinfo li {
+        clear: both;
+    }
+    
+    .rinfo li div {
+        float: left;
+        width: 218px;
+    }
+
+
+    .cofee1 span, .cofee2 span, .cofee3 span {
+        display: block;
+        padding: 4px;
+    }
+
+.flash_block2 {
+    width: 1011px;
+    height: 185px;
+    background: #7b7777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: url(images/foot.png) left top no-repeat;
+    height: 81px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

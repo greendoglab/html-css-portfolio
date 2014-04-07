@@ -1,0 +1,9 @@
+#container {
+width:expression((document.documentElement.clientWidth||document.body.clientWidth)<800?'800px':'100%');
+width:expression((document.documentElement.clientWidth||document.body.clientWidth)>1200?'1200px':'100%');
+}
+
+#headt {
+height: 191px;
+width:expression((document.documentElement.clientWidth||document.body.clientWidth)<800?'800px':'100%');
+}

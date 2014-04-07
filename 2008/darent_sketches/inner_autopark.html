@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TITLE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" href="ie.css" type="text/css" />
+<![endif]-->
+<script language="Javascript">
+   var timers = Array();
+
+   function hideSubmenuDo(submenu_layer_id){
+       document.getElementById(submenu_layer_id).style.display = 'none';
+   }
+
+   function hideSubmenu(submenu_layer_id){
+       timers[submenu_layer_id] = setTimeout("hideSubmenuDo('"+submenu_layer_id+"')", 1000);
+
+       return false;
+   }
+
+   function showSubmenu(submenu_layer_id){
+
+       for (var tmp in timers){
+           if (tmp!=submenu_layer_id){
+               hideSubmenuDo(tmp);
+               clearTimeout(timers[tmp]);
+           }
+       }
+
+       document.getElementById(submenu_layer_id).style.display = 'block';
+       clearTimeout(timers[submenu_layer_id]);
+
+       return false;
+   }
+
+</script>
+</head>
+<body>
+
+<div id="layoutsubmenu">
+    <div id="submenu1"  onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');" class="submenu1class">
+	<a href="#">Условия сотрудничества</a>
+	<a href="#">DREAM AUTO Rent Bonus</a>
+	<a href="#">Договоры</a>
+    </div>
+    <div id="submenu2" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');" class="submenu2class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+    <div id="submenu3" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');" class="submenu3class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+    <div id="submenu4" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');" class="submenu4class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+    <div id="submenu5" onMouseOver="return showSubmenu('submenu5');" onMouseOut="return hideSubmenu('submenu5');" class="submenu5class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+</div>
+
+<div id="header1">
+    <span class="white"><a href="#">ENG</a></span>
+    <span class="black">РУС</span>
+    <div class="homeicon"><img src="images/home.png" alt="home" /></div>
+    <div class="cl"></div>
+</div>
+<div id="header2">
+    <div id="phone">
+	<div class="ordercar">заказ машины</div>
+	<span class="number">(495)</span><span class="numwh">983-0-999</span>
+    </div>
+    <div id="menu">
+	<a href="#" onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');" class="firstmenu">О КОМПАНИИ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');">ЦЕНЫ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');">КОРПОРАТИВНОЕ ОБСЛУЖИВАНИЕ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');" class="bluemenu">ON-LINE ЗАКАЗ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu5');" onMouseOut="return hideSubmenu('submenu5');">КОНТАКТЫ</a>
+    </div>
+    <div class="cl"></div>
+</div>
+
+<div class="decor decorinner">
+    <div class="autopark">
+	<div id="contenttip">
+	    <div class="ctnin">
+		<h1>Цены</h1>
+		<p>Автопарк Компании состоит из преимущественно автомобилей 2006 года выпуска с пробегом20-25 000 км.
+Все автомобили застрахованы по рискам КАСКО и ОСАГО и проходят регулярное техническое обслуживание у официальных дилеров. 
+Мы заботимся о наших автомобилях и призываем к этому наших Клиентов.</p>
+		<div class="cl"></div>
+		<div class="left half">
+		    <img class="car" src="images/car1.png" alt="s" />
+		    <img class="car" src="images/car2.png" alt="s" />
+		    <img class="car" src="images/car3.png" alt="s" />
+		    <img class="car" src="images/car1.png" alt="s" />
+		    <img class="car" src="images/car2.png" alt="s" />
+		    <img class="car" src="images/car3.png" alt="s" />
+		    <div class="cl"></div>
+		</div>
+		<div class="left aptpadding">
+		    <h2 class="aph">Mersedes Benc 200989</h2>
+		    <table class="apt">
+			<tr>
+			    <th class="aptwhite">Кузов:</th>
+			    <td class="aptwhite">Седан</td>
+			</tr>
+			<tr>
+			    <th class="aptgray">Год выпуска:</th>
+			    <td class="aptgray">2003/2002</td>
+			</tr>
+			<tr>
+			    <th class="aptwhite">Цвет:</th>
+			    <td class="aptwhite">Серо-голубой</td>
+			</tr>
+			<tr>
+			    <th class="aptgray">Количество пассажиров:</th>
+			    <td class="aptgray">4 чилавка</td>
+			</tr>
+			<tr>
+			    <th class="aptwhite">Дополнительно:</th>
+			    <td class="aptwhite">Что нибудь тут напишу</td>
+			</tr>
+		    </table>
+		</div>
+		<div class="cl"></div>
+		<div class="left half apborder">
+		    <img class="car" src="images/car1.png" alt="s" />
+		    <img class="car" src="images/car2.png" alt="s" />
+		    <img class="car" src="images/car3.png" alt="s" />
+		    <img class="car" src="images/car1.png" alt="s" />
+		    <img class="car" src="images/car2.png" alt="s" />
+		    <img class="car" src="images/car3.png" alt="s" />
+		    <div class="cl"></div>
+		</div>
+		<div class="left aptpadding apborder">
+		    <h2 class="aph">Mersedes Benc 200989</h2>
+		    <table class="apt">
+			<tr>
+			    <th class="aptwhite">Кузов:</th>
+			    <td class="aptwhite">Седан</td>
+			</tr>
+			<tr>
+			    <th class="aptgray">Год выпуска:</th>
+			    <td class="aptgray">2003/2002</td>
+			</tr>
+			<tr>
+			    <th class="aptwhite">Цвет:</th>
+			    <td class="aptwhite">Серо-голубой</td>
+			</tr>
+			<tr>
+			    <th class="aptgray">Количество пассажиров:</th>
+			    <td class="aptgray">4 чилавка</td>
+			</tr>
+			<tr>
+			    <th class="aptwhite">Дополнительно:</th>
+			    <td class="aptwhite">Что нибудь тут напишу</td>
+			</tr>
+		    </table>
+		</div>
+		<div class="cl"></div>
+	    </div>
+	</div>
+    </div>
+</div>
+
+<div id="footer">
+    <div id="foot1">Партнерские ссылки: <a href="#">Привет Лимузину</a>, <a href="#">Привет Лимузину</a>, <a href="#">Авто для выездов</a>, <a href="#">Прокат Лимузина</a>, <a href="#">Привет Лимузину</a></div>
+    <div id="foot2">
+	<img src="images/co1.png" alt="" />
+	<img src="images/co2.png" alt="" />
+    </div>
+    <div id="foot3">
+	<div class="bigco left">
+	    <img src="images/co3.png" alt="" />
+	</div>
+	<div class="left">
+	    <p>&copy; 2008 Dream-auto.ru</p>
+	    <p>
+		Адрес: РФ, 123001, г. Москва, ул. Большая Садовая д. 5/1 офис 614<br />
+		Тел.: (495) 983 – 0 – 999, факс: (495) 650 21 25<br />
+		E-mail: <a href="mailto:sale@darent.ru">sale@darent.ru</a>
+	    </p>
+	</div>
+	<div class="cl"></div>
+    </div>
+</div>
+
+</body>
+</html>

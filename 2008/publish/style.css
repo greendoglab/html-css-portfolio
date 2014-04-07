@@ -1,0 +1,99 @@
+body {margin: 0; padding:0px; background: #fff url(images/bg.png); color:#000; font-family: Arial, Tahoma, sans-serif; font-size:100.01%;}
+
+/*---Global tags---*/
+img {border:0;}
+form {padding:0; margin:0;}
+a {color:#2078B6; text-decoration:underline;}
+a:hover {text-decoration:none;}
+
+hr {border:0px solid #7F7F7F; border-bottom:1px solid #7F7F7F; }
+h2, h3, h4 {margin-bottom: 0; font-weight: normal;}
+h1 {color: #30A3FE; font-size: 22pt; font-weight: normal;}
+h2 {color: #FF4F2C; font-size: 17pt; margin-bottom: 0;}
+h3 {color: #000; font-size: 14pt; margin-botom: 0;}
+h4 {}
+
+ul {}
+ul li {}
+
+p {font-family: tahoma; font-size: 11pt; color: black; margin-top: 0;}
+fieldset {padding:0; border:none; border:0px solid #000; margin:0;}
+table {border-collapse: collapse; margin: 0; padding: 0;}
+td {margin: 0; padding: 0; vertical-align: top;}
+th {text-align: left;}
+textarea, input {font-family:Arial;}
+
+.cl {clear:both; font-size:0;}
+
+#container {font-size: 11pt; background: transparent url(images/contbg.png) left repeat-y; padding: 0; margin: 0; min-width: 800px; max-width: 1200px;}
+
+#headt {height: 191px; width: 100%;}
+.head1 {width: 339px; background: url(images/head1.png) no-repeat;}
+.head2 {background: url(images/head2.png) repeat-x;}
+.head3 {width: 394px; background: url(images/head3.png) no-repeat;}
+
+#bodyt {width: 100%;}
+.body1 {width: 270px; height: 100%; background: url(images/body1.png) repeat-y right top; vertical-align: top;}
+.body1-1 { height: 31px; background: url(images/body1-1.png) no-repeat top right;}
+.body2 {background: #fff url(images/body2.png) no-repeat left top; padding: 0 31px 31px 50px; font-family: tahoma; font-size: 11pt; color: black;}
+.body3 {width: 102px; background: #fff url(images/body3.png) repeat-y right;}
+
+#news {width: 100%; margin-left: -30px;}
+.np {height: 72px; background: url(images/np.png) repeat-x top; width: 50%;}
+.np-d {height: 52px; background: url(images/np-div.png) top right no-repeat; padding: 14px 0 6px 30px;}
+.np-d a {color: #fff; font-size: 15pt;}
+.news_in {padding-left: 30px; padding-right: 20px;}
+.news_in a {font-size: 10pt; font-weight: bold;}
+.news_in span {color: #999999; padding-left: 10px;}
+
+#footer1 {width: 100%; height: 36px;}
+.foot1 {width: 361px; background: url(images/foot1.png) no-repeat top left;}
+.foot2 {background: url(images/foot2.png) repeat-x}
+.foot3 {width: 203px; background: url(images/foot3.png) no-repeat right top;}
+
+#footer2 {width: 100%; height: 55px;}
+.foot1-2 {width: 511px; background: url(images/foot1-2.png) no-repeat top left;}
+.foot2-2 {background: url(images/foot2-2.png) repeat-x;}
+.foot3-2 {width: 61px; background: url(images/foot3-2.png) right top no-repeat;}
+.foot4-2 {width: 40px; background: url(images/foot4-2.png) left top no-repeat;}
+
+.menu-top {width: 270px; height: 31px; background: url(images/menu-top.png) no-repeat;}
+.menu {width: 270px; background: url(images/menu.png) repeat-y;}
+.menuitem {list-style: none; margin: 0; padding: 0;}
+.menuitem li {padding-bottom: 25px; padding-top: 12px;}
+.menuitem li a {color: #FF4F2C; font-size: 11pt; font-weight: bold; font-family: tahoma; padding-left: 50px; display: block;}
+.menuitem li.active {background: url(images/active.png) left top no-repeat; padding-top: 12px;} 
+.menus {list-style: none; margin: 24px 0 0 0; padding: 0;}
+.menus li {background: url(images/active21.png) 0 0 no-repeat; padding: 0 0 16px 0;}
+.menus li.active {background: url(images/active21red.png) 0 0 no-repeat; padding: 0 40px 14px 50px; color: #000; font-size: 8pt; font-weight: bold; font-family: tahoma; display: block;}
+.menus li a {color: #2078b6; font-size: 8pt; font-weight: normal; font-family: tahoma; padding-left: 50px; display: block;}
+
+.active21 {background: url(images/active21.png) 0 0 no-repeat;}
+.active21red {background: url(images/active21red.png) 0 0 no-repeat; color: black; font-weight: bold; font-size: 8pt;}
+
+.active21 a, .active21red a {color: #2078b6; font-size: 8pt; font-weight: normal; font-family: tahoma;}
+.menu-bott {width: 270px; height: 31px; background: url(images/menu-bott.png) no-repeat;}
+.menu-s {width: 270px; height: 31px; background: url(images/menu-s.png) no-repeat;}
+
+.subscribe {background: url(images/subscribe.png) top left no-repeat; padding: 10px 0 0 80px; height: 50px; color: white; font-size: 9pt; font-weight: bold;}
+
+.adress {padding: 65px 99px 0 0; text-align: right; font-size: 10pt;}
+.smallphone {font-size: 11pt; position: relative; top: -9px; padding-right: 4px; color: #ff4f2c;}
+.bigphone {font-size: 24pt; color: #ff4f2c;}
+.adline {margin: 10px 0 0 0; display: block;}
+.logo {position: relative; top: 30px; left: 52px;}
+
+.homes {padding: 33px 0 0 50px;}
+.homes img {padding-right: 15px;}
+
+.random {width: 100%;}
+.random th {background: #accbe4; padding: 15px; font-size: 11pt; font-weight: bold; color: #3774a5;}
+.glos td {border-bottom: 1px solid #accbe4; padding: 15px;}
+.glosblue td {background: #dbe7f1; border-bottom: 1px solid #accbe4; padding: 15px;}
+
+.glos, .glosblue {font-size: 10pt;}
+
+.counters {float: right; margin: 0 40px 0 0;}
+.textb {float: left;}
+
+#copy {background: url(images/contbg.png) left repeat-y; padding: 20px 0 27px 252px; color: #fff;}

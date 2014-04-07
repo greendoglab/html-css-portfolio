@@ -1,0 +1,206 @@
+body {
+    padding: 40px 0 40px 0;
+    margin: 0;
+    font-family: Arial, tahoma;
+    font-size: 10pt;
+    color: #7C7C7A;
+}
+
+img {
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.cl {
+    clear: both;
+    font-size: 0px;
+}
+
+a {
+    color: #4B82D4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #309116;
+    margin-top: 0;
+    font-size: 13pt;
+}
+
+#head, #menu, #container, #footer {
+    width: 734px;
+}
+
+#head {
+    height: 99px;
+    background: url(img/head.png) no-repeat;
+    text-align: right;
+}
+
+#head h1 {
+    color: #00283F;
+    padding: 62px 25px 0 0;
+}
+
+#menu {
+    height: 37px;
+    background: url(img/menu.png) repeat-y;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0 72px;
+}
+
+#menu ul li {
+    float: left;
+    background: url(img/menu_list.png) left center no-repeat;
+    padding: 0 15px 0 15px;
+}
+
+#menu ul li.first {
+    float: left;
+    padding: 0 15px 0 0;
+    background: none;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+#menu ul li a:hover {
+    color: #D0D0D0;
+}
+
+#container {
+    background: url(img/container.png) repeat-y;
+}
+
+#forex, #casino {
+    width: 277px;
+    padding: 20px 10px 0 80px;
+    float: left;
+}
+
+#casino {
+    background: url(img/casino.png) 4px 0 no-repeat;
+}
+
+#forex {
+    background: url(img/forex.png) 4px 0 no-repeat;
+}
+
+#butt {
+    background: url(img/butt.png) repeat-x;
+    height: 107px;
+    margin: 0 1px 0 1px;
+}
+
+.softbuttons {
+    width: 365px;
+    float: left;
+}
+
+.price {
+    float: right;
+    width: 82px;
+    height: 72px;
+    background: url(img/price.png) no-repeat;
+    padding: 35px 0 0 18px;
+    color: #fff;
+    font-family: gergia;
+    font-size: 18pt;
+}
+
+.buttons {
+    float: right;
+    width: 215px;
+    text-align: right;
+    padding: 37px 10px 0 0;
+}
+
+#content {
+    width: 592px;
+    background: #EDF1EC;
+    padding: 10px 70px 30px 70px;
+}
+
+#content2 {
+    width: 592px;
+    padding: 10px 70px 30px 70px;
+}
+
+#content2  .inp {
+    border: 1px solid #d5d5d5;
+    padding: 4px;
+    margin: 5px 0 15px 0;
+    width: 588px;
+}
+
+#content2  .ta {
+    border: 1px solid #d5d5d5;
+    padding: 4px;
+    margin: 5px 0 15px 0;
+    width: 588px;
+}
+
+.try {
+    float: left;
+    margin-left: -21px;
+}
+
+#bott_content {
+    width: 592px;
+    padding: 10px 70px 30px 70px;
+}
+
+#bott_content ul {
+    list-style: none;
+}
+
+#bott_content ul li {
+    float: left;
+    padding: 0 15px 0 0;
+}
+
+#footer {
+    height: 11px;
+    background: url(img/footer.png) no-repeat;
+}

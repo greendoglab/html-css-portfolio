@@ -1,0 +1,105 @@
+// functions
+// /functions
+
+// mixins    
+border_radius(r)
+    -webkit-border-radius r
+    border-radius r
+
+border_radius_long(a, b, c, d)
+    -webkit-border-radius: a b c d;
+    border-radius: a b c d;
+
+box_sizing_box()
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+translate(a, b)
+    -webkit-transform: translate(a, b);
+    -moz-transform: translate(a, b);
+    -ms-transform: translate(a, b);
+    -o-transform: translate(a, b);
+
+transition(p, d, t)
+    -webkit-transition-property: p;
+    -webkit-transition-duration: d;
+    -webkit-transition-timing-function: t;
+    -moz-transition-property: p;
+    -moz-transition-duration: d;
+    -moz-transition-timing-function: t;
+    -o-transition-property: p;
+    -o-transition-duration: d;
+    -o-transition-timing-function: t;
+
+inline_block_top()
+    display inline-block
+    vertical-align top
+
+inline_block_middle()
+    display inline-block
+    vertical-align middle
+// /mixins
+
+// variables
+main_bg = url(../images/main.jpg) no-repeat top center
+logo_bg = url(../images/logo.png) no-repeat
+gray_bg = #f5f5f5
+main_font = 'Open Sans'
+second_font = 'Playfair Display'
+green_font = #009439
+desc_bg = #f5f5f5
+// /variables
+
+// base classes
+body
+    font: 100%/160% arial, sans-serif
+    background main_bg
+    color text_color
+    padding 0
+    margin 0
+
+// h1, h2, h3, h4, h5
+//     color
+
+.cl
+    clear both
+
+a
+    color link_color
+    transition(all, .3s, ease-out)
+    &:hover
+    &:visited
+    &:active
+        text-decoration none
+
+img
+    max-width 100%
+    outline none
+    vertical-align center
+
+.if iframe,
+.if object,
+.if embed
+  /*position: absolute;*/
+  max-width 100%
+// /base classes
+
+form
+    fieldset
+        border 0
+
+input[type=text]
+textarea
+    border 1px solid #c8c8c8
+    border-radius .4em
+    outline none
+    box_sizing_box()
+    padding 1em
+    font-size .8em
+
+// input[type=text]
+button
+    border none
+    background none
+    font-size 100%

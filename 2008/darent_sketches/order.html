@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TITLE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" href="ie.css" type="text/css" />
+<![endif]-->
+<script language="Javascript">
+   var timers = Array();
+
+   function hideSubmenuDo(submenu_layer_id){
+       document.getElementById(submenu_layer_id).style.display = 'none';
+   }
+
+   function hideSubmenu(submenu_layer_id){
+       timers[submenu_layer_id] = setTimeout("hideSubmenuDo('"+submenu_layer_id+"')", 1000);
+
+       return false;
+   }
+
+   function showSubmenu(submenu_layer_id){
+
+       for (var tmp in timers){
+           if (tmp!=submenu_layer_id){
+               hideSubmenuDo(tmp);
+               clearTimeout(timers[tmp]);
+           }
+       }
+
+       document.getElementById(submenu_layer_id).style.display = 'block';
+       clearTimeout(timers[submenu_layer_id]);
+
+       return false;
+   }
+
+</script>
+</head>
+<body>
+
+<div id="layoutsubmenu">
+    <div id="submenu1"  onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');" class="submenu1class">
+	<a href="#">Условия сотрудничества</a>
+	<a href="#">DREAM AUTO Rent Bonus</a>
+	<a href="#">Договоры</a>
+    </div>
+    <div id="submenu2" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');" class="submenu2class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+    <div id="submenu3" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');" class="submenu3class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+    <div id="submenu4" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');" class="submenu4class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+    <div id="submenu5" onMouseOver="return showSubmenu('submenu5');" onMouseOut="return hideSubmenu('submenu5');" class="submenu5class">
+	<a href="#">Аренда с водителем</a>
+	<a href="#">Трансфер</a>
+	<a href="#">Услуги</a>
+    </div>
+</div>
+
+<div id="header1">
+    <span class="white"><a href="#">ENG</a></span>
+    <span class="black">РУС</span>
+    <div class="homeicon"><img src="images/home.png" alt="home" /></div>
+    <div class="cl"></div>
+</div>
+<div id="header2">
+    <div id="phone">
+	<div class="ordercar">заказ машины</div>
+	<span class="number">(495)</span><span class="numwh">983-0-999</span>
+    </div>
+    <div id="menu">
+	<a href="#" onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');" class="firstmenu">О КОМПАНИИ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');">ЦЕНЫ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');">КОРПОРАТИВНОЕ ОБСЛУЖИВАНИЕ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');" class="bluemenu">ON-LINE ЗАКАЗ</a>
+	<a href="#" onMouseOver="return showSubmenu('submenu5');" onMouseOut="return hideSubmenu('submenu5');">КОНТАКТЫ</a>
+    </div>
+    <div class="cl"></div>
+</div>
+
+<div class="decor decorinner">
+    <div class="order">
+	<div id="contenttip">
+	    <div class="ctnin">
+		<h1>Цены</h1>
+		<div class="left ord1">
+		    <strong>Данные Клиента</strong>
+		</div>
+		<div class="left ord2">
+		    ФИО<br />
+		    <input type="text" class="orderfirst" />
+		    Телефон<br />
+		    <input type="text" class="orderfirst" />
+		    Электронный адрес<br />
+		    <input type="text" class="orderfirst" />
+		</div>
+		<div class="cl"></div>
+		<br /><br />
+		<div class="left ord1">
+		    <strong>Подробности заказа</strong>
+		</div>
+		<div class="left ord2">
+		    тип услуги
+		    <div class="ordermargin">
+			<input type="checkbox" /> почасовая аренда <input type="checkbox" /> аренда на длительный период
+		    </div>
+		    <div class="halford left">
+			дата начала заказа<br />
+			<input type="text" class="ordersmall" />
+			дата окончания заказа<br />
+			<input type="text" class="ordersmall" />
+		    </div>
+		    <div class="halford left">
+			время начала заказа<br />
+			<input type="text" class="ordersmall" />
+			время окончания заказа<br />
+			<input type="text" class="ordersmall" />
+		    </div>
+		    <div class="cl"></div>
+                    Автомобиль<br />
+                    <select class="orderfirst" style="height: 21px;">
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                    Адрес подачи<br />
+		    <input type="text" class="orderfirst" />
+		    Адрес возврата<br />
+		    <input type="text" class="orderfirst" />
+		    Сумма заказа<br />
+		    <input type="text" class="orderfirst" />
+		    <div class="ordermargin2">
+			<a href="#"><img src="images/send.png" alt="" /></a>
+		    </div>
+		</div>
+		<div class="cl"></div>
+	    </div>
+	</div>
+    </div>
+</div>
+
+<div id="footer">
+    <div id="foot1">Партнерские ссылки: <a href="#">Привет Лимузину</a>, <a href="#">Привет Лимузину</a>, <a href="#">Авто для выездов</a>, <a href="#">Прокат Лимузина</a>, <a href="#">Привет Лимузину</a></div>
+    <div id="foot2">
+	<img src="images/co1.png" alt="" />
+	<img src="images/co2.png" alt="" />
+    </div>
+    <div id="foot3">
+	<div class="bigco left">
+	    <img src="images/co3.png" alt="" />
+	</div>
+	<div class="left">
+	    <p>&copy; 2008 Dream-auto.ru</p>
+	    <p>
+		Адрес: РФ, 123001, г. Москва, ул. Большая Садовая д. 5/1 офис 614<br />
+		Тел.: (495) 983 – 0 – 999, факс: (495) 650 21 25<br />
+		E-mail: <a href="mailto:sale@darent.ru">sale@darent.ru</a>
+	    </p>
+	</div>
+        <div class="cl"></div>
+    </div>
+</div>
+
+</body>
+</html>

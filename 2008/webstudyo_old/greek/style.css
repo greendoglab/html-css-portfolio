@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff url(images/body.png) repeat-x;
+    color:#a0a0a0;
+    font-family: Georgia, Times New Roman, Courier;
+    line-height: 160%;
+    font-size: 9pt;
+}
+
+/*---Global tags---*/
+img {
+    border:0;
+}
+
+form {
+    padding:0;
+    margin:0;
+}
+a {
+    color:#47A2CC;
+    text-decoration:underline;
+}
+a:hover {
+    text-decoration:none;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #5fa3cb;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {}
+
+p {
+    margin-top: 0;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.half {
+    width: 50%;
+}
+
+.green {
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    text-align: left;
+}
+
+div {
+    text-align: left;
+}
+
+.cl {
+    clear:both;
+    font-size:0;
+}
+
+/*---Global tags---*/
+
+.lang {
+    width: 140px;
+    height: 40px;
+    margin-left: 235px;
+    margin-top: -40px;
+    font-family: arial;
+}
+
+.lang a {
+    text-decoration: none;
+    font-size: 7pt;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.all {
+    width: 783px;
+}
+
+.header {
+    height: 120px;
+    background: url(images/header.png) no-repeat;
+    padding-top: 45px;
+    padding-right: 34px;
+}
+
+.menu li {
+    cursor: pointer;
+    float: right;
+    width: 102px;
+    height: 80px;
+    padding-top: 32px;
+    margin-left: 2px;
+    background: url(images/menu.png) no-repeat;
+    text-align: center;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background: url(images/menu_over.png) no-repeat;
+}
+
+.content {
+    padding-left: 18px;
+}
+
+.side {
+    background: url(images/side.png) no-repeat top right;
+    height: 603px;
+}
+
+.service {
+    background: url(images/service.png) no-repeat top right;
+}
+
+.folio {
+    background: url(images/folio.png) no-repeat top right;
+}
+
+.price {
+    background: url(images/price.png) no-repeat top right;
+}
+
+.mail {
+    background: url(images/mail.png) no-repeat top right;
+}
+
+.inputw {
+    width: 350px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.works {
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.works:hover {
+    background: #ecf5fd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.works h2 {
+    clear: both;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.works h2 a {
+    text-decoration: none;
+}
+
+.works img {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.works_decor {
+    border-top: 1px dotted #cecece;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.workslist {
+    margin-top: 15px;
+}
+
+.workslist li {
+    float: left;
+}
+
+.workslist a {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.workslist a:hover {
+    color: #000;
+}
+
+.footer {
+    padding-left: 18px;
+    padding-top: 74px;
+    clear: both;
+    background: url(images/footer.png) no-repeat;
+    height: 135px;
+}
+
+div.t2, div.t3, div.t4, div.t5, div.t6, div.t7, div.t8 {display: none}

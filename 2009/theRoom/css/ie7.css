@@ -1,0 +1,100 @@
+.leftblock {
+    width: 376px;
+    height: 832px;
+    margin-right: 14px;
+}
+
+.centerblock {
+    width: 375px;
+    height: 833px;
+}
+
+.rightblock {
+    float: right;
+    width: 240px;
+    height: 756px;
+}
+
+.right_ie {
+    height: 826px;
+}
+
+.width_ie {
+    width: 764px;
+}
+
+.partners_item {
+    width: 190px;
+    height: 140px;
+    margin-right: 32px;
+    padding-top: 14px;
+}
+
+.searchdiv {
+    padding-left: 83px;
+    padding-bottom: 26px;
+}
+
+.last {
+    margin-top: -11px;
+    position: relative;
+}
+
+.news_list {
+    height: 99px;
+    padding-top: 73px;
+}
+
+.article_list {
+    height: 102px;
+    padding-top: 219px;
+}
+
+.blog_list {
+    height: 96px;
+    padding-top: 227px;
+}
+
+.decor_news {
+    height: 168px;
+    background: url(../images/decor_news.png ) bottom no-repeat;
+}
+
+.topic {
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+.news_list {
+    text-align: left;
+    width: 15px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin-left: -35px;
+    margin-top: -318px;
+}
+
+.article_list {
+    width: 15px;
+    position: relative;
+    float: left;
+    margin-left: -35px;
+    margin-top: -472px;
+}
+
+.blog_list {
+    width: 15px;
+    height: 10px;
+    position: relative;
+    float: left;
+    margin-left: -35px;
+    margin-top: -300px;
+}
+
+.spec {
+    background: red;
+    margin-left: -70px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+}

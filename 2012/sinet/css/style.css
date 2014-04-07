@@ -1,0 +1,216 @@
+/* author html/css Mihail Yakimenko - macgera.com.ua */
+
+/* debug */
+.debug {
+    border: 1px solid red;
+}
+.debug_bg {
+    background: red;
+}
+.debug_bg_blue {
+    background: blue;
+}
+/* debug */
+
+::-moz-selection { background: #7adeff; }
+::selection { background: #7adeff; }
+
+::-webkit-input-placeholder  { color:#000; }
+input:-moz-placeholder { color:#000; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* main clasess */
+body {
+    font: 90%/170% helvetica, arial, verdana, serif;
+    margin: 0;
+    padding: 0;
+    background: url(../images/noise.png);
+    color: #454545;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.left {float: left;}
+.right {float: right;}
+.cl {clear: both;font-size: 0em;}
+.hide {
+    display: none;
+}
+.cleft {
+    text-align: left;
+}
+.cright {
+    text-align: right;
+}
+.rel {
+    position: relative;
+}
+.wrap-row {
+    overflow: hidden;
+}
+/* main clasess */
+
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+.h-block {
+    float: left;
+}
+.bleft {
+    width: 320px;
+}
+.bcenter {
+    width: 340px;
+}
+.bright {
+    width: 320px;
+}
+.ta-center {
+    text-align: center;
+}
+.names {
+    padding: 80px 0 0 0;
+}
+.names h1 {
+    color: #109ecd;
+    font-size: 3.6em;
+    font-style: italic;
+    font-family: Georgia;
+}
+.phone {
+    width: 170px;
+    padding: 70px 150px 0 0;
+    height: 110px;
+    background: url(../images/logo.png) no-repeat 140px 16px;
+}
+    .phone span {
+        text-align: center;
+        display: block;
+        font-size: 1.2em;
+        font-style: italic;
+        color: #5f5f5f;
+    }
+.content {
+    height: 200px;
+    padding: 44px 0 0 0;
+    background: url(../images/cont.png);
+}
+    .counters {
+        padding: 0 0 0 0;
+    }
+    .table {
+        display: table-cell;
+        width: 85px;
+        text-align: center;
+    }
+        .reasons {
+            padding: 35px 0 0 0;
+        }
+            .reasons span {
+                display: block;
+                color: #e4e4e4;
+                font-style: italic;
+                font-size: 1.2em;
+            }
+            .reasons span.free {
+                color: #a8c3d4;
+                padding-top: .6em;
+                font-size: 1.8em;
+            }
+            .upps {
+                text-transform: uppercase;
+            }
+        .inputs {
+            text-align: sblock;
+        }
+        .center {
+            display: block;
+        }
+        .black-label {
+            font-size: 1.2em;
+            font-family: georgia;
+            font-style: italic;
+            color: #000;
+            text-shadow: 1px 1px 3px #373737;
+        }
+        .cpadd {
+            margin: 10px 0;
+        }
+        .count-dash {
+            margin: 0 auto;
+            width: 80px;
+            height: 58px;
+            background: #434343; /* Old browsers */
+            background: -moz-linear-gradient(top,  #434343 0%, #3f3f3f 50%, #2a2a2a 51%, #3a3a3a 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#434343), color-stop(50%,#3f3f3f), color-stop(51%,#2a2a2a), color-stop(100%,#3a3a3a)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #434343 0%,#3f3f3f 50%,#2a2a2a 51%,#3a3a3a 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #434343 0%,#3f3f3f 50%,#2a2a2a 51%,#3a3a3a 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #434343 0%,#3f3f3f 50%,#2a2a2a 51%,#3a3a3a 100%); /* IE10+ */
+            background: linear-gradient(top,  #434343 0%,#3f3f3f 50%,#2a2a2a 51%,#3a3a3a 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#3a3a3a',GradientType=0 ); /* IE6-9 */
+            color: #000;
+            padding-top: 32px;
+            font-size: 4em;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            text-shadow: 1px 1px 3px #4c4c4c;
+            -webkit-box-shadow: inset 0px -2px 1px 1px #101010;
+            -moz-box-shadow: inset 0px -2px 1px 1px #101010;
+            box-shadow: inset 0px -2px 1px 1px #101010;
+        }
+    .inputs {}
+        .inputs .fields input {
+            margin-bottom: 6px;
+            border: none;
+            width: 240px;
+            height: 18px;
+            padding: 2px 4px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            color: #303030;
+        }
+        .inputs .fields input::-webkit-input-placeholder {
+            color:    #808080;
+        }
+        .inputs .fields input:-moz-placeholder {
+            color:    #808080;
+        }
+        .send {
+            margin-top: 6px;
+            width: 180px;
+            height: auto;
+        }
+.vk {
+    text-align: center;
+    padding: 65px 0 0 0;
+}
+.social {
+    width: 700px;
+    margin: 0 auto;
+}
+    .social ul {
+        margin: 10px 0;
+        padding: 0;
+        text-align: center;
+    }
+        .social ul li {
+            display: inline;
+        }

@@ -1,0 +1,10 @@
+    .ank input {
+        float: left;
+        width: 324px;
+        height: 15px;
+        border: none;
+        border-bottom: 1px dashed #e52fda;
+        border-left: 1px solid #e52fda;
+        color: #e52fda;
+        padding-top: 4px;
+    }

@@ -1,0 +1,156 @@
+/*
+
+Site Screen Master
+Author:   macgera at http://macgera.net.ua
+Version:  august 2010
+
+*/
+
+body {
+    background: #ffe3e5 url(../images/bg.png) top center no-repeat;
+    font: 96%/150% Georgia, "Times new Roman", Roman, arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #a51c1f;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ea2534;
+    text-decoration: none;
+}
+
+/* WRAP */
+.wrap-first {
+    background: url(../images/all_bg.png) top center no-repeat;
+}
+
+.wrap {
+    width: 1018px;
+    margin: 0 auto;
+    background: #fff5f1;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.wrap-logo {
+    width: 1018px;
+    margin: 0 auto;
+    background: url(../images/wrap-logo.png);
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+/* WRAP */
+
+/* WRAP */
+.header1 {
+    display: table-cell;
+    background: url(../images/) center top;
+    width: 1018px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+    .header1 a {margin: 0 auto;}
+.header2 {
+    background: url(../images/header2.png);
+    height: 365px;
+}
+    .header2 ul li {
+        width: 25%;
+        float: left;
+        padding-top: 50px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+        .header2 ul li a {text-decoration: none;}
+        .header2 ul li a span {text-decoration: underline;}
+        .header2 ul li a:hover span {text-decoration: none;}
+            .header2 ul li a img {margin-bottom: 30px;}
+
+/* WRAP */
+
+/* ASIDE */
+.aside {
+    background: url(../images/aside.png) no-repeat -6px top;
+}
+    .awidth1 {width: 260px;}
+    .awidth2 {width: 230px;}
+    .aside ul {
+        padding-left: 40px;
+    }
+    .aside ul li {
+        margin-bottom: 10px;
+    }
+/* ASIDE */
+
+/* CONTENT */
+.cwidth1 {width: 740px;}
+.cwidth2 {width: 780px;}
+    /* cat_list */
+    .cat_list {
+        width: 222px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+        .cat_list img {margin-bottom: 10px;}
+    /* cat_list */
+    /* BOX */
+    .box {padding-right: 40px;}
+    .box p em {color: #a51c1f;}
+    /* BOX */
+/* CONTENT */
+
+/* FOOTER */
+.footer {
+    margin-top: 60px;
+    padding: 0 0 25px 40px; 
+}
+    .copyblock {
+        float: left;
+        width: 220px;
+        padding-top: 35px;
+    }
+    .banner {
+        width: 740px;
+        float: right;
+    }
+    .copy {display: block;padding-top: 10px;}
+    .decor {
+        display: block;
+        height: 15px;
+        float: left;
+        margin-right: 5px;
+        color: #c21e46;
+    }
+    .on {
+        margin-top: 5px;
+        margin-right: 5px;
+        float: left;
+        display: block;
+        width: 26px;
+        height: 15px;
+        background: url(../images/on-off.png) no-repeat;
+    }
+    .off {
+        margin-top: 5px;
+        margin-right: 5px;
+        float: left;
+        display: block;
+        width: 26px;
+        height: 15px;
+        background: url(../images/on-off.png) -31px 0 no-repeat;
+    }
+/* FOOTER */

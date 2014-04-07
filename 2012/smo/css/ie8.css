@@ -1,0 +1,27 @@
+.phone {
+    display: block;
+    font-size: 1.38em;
+    font-weight: bold;
+    color: #f37021;
+}
+
+.i-phone {
+    float: left;
+    width: 110px;
+    height: 23px;
+    padding: 7px 8px 0 8px;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: none;
+}
+
+.footer-search input {
+    width: 192px;
+    height: 23px;
+    padding: 7px 10px 0 10px;
+    border: 1px solid #e3e3e3;
+}
+.sidebar .main-title {
+    font-size: 1.4em;
+}

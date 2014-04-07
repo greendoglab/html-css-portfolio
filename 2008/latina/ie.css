@@ -1,0 +1,13 @@
+#head_right2 {
+    width: auto;
+    background: url(img/head_right2.png) repeat-x;
+}
+
+#footer_right {
+    background: #7E7E7E url(img/footer_right.png) repeat-y;
+    padding: 65px 34px 50px 54px;
+}
+
+.logo2 {
+    margin: 18px 0 0 34px;
+}

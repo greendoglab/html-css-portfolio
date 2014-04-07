@@ -1,0 +1,277 @@
+/* Author html/css Mihail Yakimenko mihailyakimenko.com do for João Correia 2011 February */
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+dl, dt, dd, ol, ul {
+	list-style: none;
+}
+
+img {outline: 0;}
+a img {border: 0;}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+th, td {vertical-align: top;} 
+/* RESET */
+
+body { 
+	font: 90%/170%  Arial, Verdana, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	padding: 0 0 0 0;
+}
+
+a {
+	color: #ba0f63;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* my Presets */
+.half {width: 50%;}
+.left {float: left;}
+.right {float: right;}
+.cl {clear: both;font-size: 0em;}
+h1, h2, h3, h4, h5, h6 {color: #fff; font-weight: normal; margin-bottom: .8em;}
+.a_left {text-align: left;}
+.a_right {text-align: right;}
+.a_center {text-align: center;}
+.c_white {
+	color: #fff;
+}
+.debug {
+	border: 1px solid red; 
+}
+
+/* my Presets */
+
+/* my Presets */
+
+/* wraps and more */
+
+.home-01 {
+	background: #000 url(../images/home-01.jpg) top center no-repeat;
+}
+
+.home-02 {
+	background: #000 url(../images/home-02.jpg) top repeat-x;
+}
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.headblock {}
+
+.stick {
+	position: absolute;
+	margin: 0 0 0 490px;
+	width: 231px;
+	height: 173px;
+	background: url(../images/stick.png) no-repeat center top;
+}
+
+.panel {
+	height: 116px;
+	background: url(../images/panel_shadow.png) bottom repeat-x;
+}
+	.home_headers {
+		width: 432px;
+		float: right;
+		text-align: center;
+		padding: 26px 0 0 0;
+		margin-right: 70px;
+	}
+		.home_headers h1 {
+			font-size: 1.4em;
+			font-weight: bold;
+			margin-bottom: 0px;
+		}
+		.home_headers h2 {
+			font-size: .9em;
+			font-weight: bold;
+			margin-bottom: 10px;	
+		}
+		
+	.in_headers {
+		width: 356px;
+		float: right;
+		text-align: left;
+		padding: 26px 0 0 0;
+		margin-right: 20px;
+	}
+		.in_headers h1 {
+			font-size: 1.4em;
+			font-weight: bold;
+			margin-bottom: 0px;
+			color: #a5ee3e;
+		}
+		.in_headers h2 {
+			font-size: .7em;
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #a5ee3e;	
+		}
+
+	.home_logo {
+		margin-top: 15px;
+	}
+	
+.showcase {
+	height: 430px;
+	margin-top: -24px;
+}
+
+.in_showcase {
+	height: 430px;
+	margin-top: -24px;
+}
+	
+.home_case_left {
+	width: 502px;
+	float: left;
+	padding: 30px 0 0 72px;
+}
+	.home_case_left h3 {
+		font-size: 2em;
+		font-weight: bold;
+		margin-bottom: 14px;
+	}
+	.home_case_left p {
+		padding-left: 4px;
+		font-size: 1.01em;
+		line-height: 140%;
+		text-transform: uppercase;
+	}
+	.home_case_left img {
+		margin: 30px 0 0 50px;
+	}
+	
+.in_case_left {
+	width: 662px;
+	height: 522px;
+	position: absolute;
+	margin: -92px 0 0 -114px;
+	background: url(../images/big_tv.jpg) no-repeat;
+}
+	
+	.in_logo {
+		padding: 20px 0 42px 128px;
+	}
+	.in_tv {
+		padding-left: 200px;
+		font-size: 1.8em;
+		font-weight: bold;
+		line-height: 120%;
+	}
+
+.home_case_right {
+	width: 280px;
+	height: 410px;
+	float: left;
+	padding: 20px 34px 0 34px;
+	background: url(../images/form.png);
+	z-index: 40;
+}
+.in_case_right {
+	width: 280px;
+	height: 410px;
+	margin-right: 60px;
+	float: right;
+	padding: 20px 34px 0 34px;
+	z-index: 40;
+}
+
+.form {}
+.form p {
+	line-height: 130%;
+	margin-bottom: 8px;
+}
+.form label {
+	display: block;
+	text-transform: uppercase;
+	margin-top: 6px;
+}
+.form input {
+	height: 22px;
+	border: 1px solid #7b858e;
+}
+	.inp_main {
+		width: 280px;
+	}
+	.postal span {
+		display: block;
+		height: 22px;
+		float: left;
+	}
+	.inp_p {
+		width: 72px;
+		float: left;
+	}
+	.inp_p_short {
+		width: 34px;
+		float: left;
+	}
+	.spacer {
+		width: 16px;
+		text-align: center;
+	}
+	.big_green_button {
+		display: block;
+		margin: 30px 0 0 0;
+		width: 300px;
+		height: 51px;
+		padding: 10px 0 0 0;
+		background: url(../images/big_green_button.png) no-repeat;
+		color: #fff;
+		text-shadow: 0 -1px 1px #505050;
+		font-weight: bold;
+		font-size: 1.4em;
+		text-align: center;
+		text-decoration: none;
+	}
+
+.gray_panel {
+	background: #e0e0e0 url(../images/gray.png) repeat-x;
+	width: 100%;
+	height: 96px;
+}
+
+.gray_list {
+	overflow: hidden;
+	width: 876px;
+	margin: 0 auto;
+	padding: 0 0 0 3px;
+	background: url(../images/gray_b.png) no-repeat left;
+}
+	.gray_list li {
+		display: block;
+		float: left;
+		width: 143px;
+		height: 96px;
+		padding: 0 3px 0 0;
+		background: url(../images/gray_b.png) no-repeat right;
+	}
+		.gray_list li p {
+			padding-top: 36px;
+			text-align: center;
+			font-size: .78em;
+			color: #2e383e;
+			line-height: 124%;
+		}
+			.gray_list li p strong {
+				font-size: 1.04em;
+			}
+		.gray_list li img {
+			position: absolute;
+			margin: -36px 0 0 28px;
+		}

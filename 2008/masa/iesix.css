@@ -1,0 +1,11 @@
+.indexblock1 {margin-top: 362px; width: 261px; height: 155px; background: url(images/index1.png) no-repeat;}
+.indexblock2 {margin-top: 297px; margin-right: 22px; width: 316px; height: 80px; background: url(images/index2.png) no-repeat;}
+.indexblock3 {margin-top: 112px; margin-right: 85px; width: 275px; height: 109px; background: url(images/index3.png) no-repeat;}
+
+.cin {width: 751px; padding-top: 130px;}
+.cintop {width: 751px; height: 13px; background: url(images/cintop.png) no-repeat;}
+.cinbott {width: 751px; height: 15px; background: url(images/cinbott.png) no-repeat;}
+.cinmidd {width: 751px; background: url(images/cinmidd.png) repeat-y; margin-top: -2px;}
+
+#box {margin: 0;padding: 0 20px 15px 20px; color: #E0ABC3;}
+#box h1 {color: white; font-size: 18pt; font-weight: normal;}

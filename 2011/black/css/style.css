@@ -1,0 +1,280 @@
+/* Автор html/css Михаил Якименко mihailyakimenko.com выполнено для  */
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+dl, dt, dd, ol, ul {
+	list-style: none;
+}
+
+article, aside, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, video, object {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+th, td {vertical-align: top;} 
+/* RESET */
+
+body { 
+	background: #fbfbfb url(../images/body.png) repeat-x top; 
+	font: 90%/170%  'Times New Roman', 'Sans Serif', Serif;
+	color: #464646;
+	padding: 0 0 0 0;
+}
+
+a {
+	color: #0893ef;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* my Presets */
+.half {width: 50%;}
+.left {float: left;}
+.right {float: right;}
+.cl {clear: both;font-size: 0em;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-bottom: .8em;}
+.a_left {text-align: left;}
+.a_right {text-align: right;}
+.a_center {text-align: center;}
+.c_white {
+	color: #fff;
+}
+.debug {
+	border: 1px solid red; 
+}
+/* my Presets */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0086aa;
+}
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.foot_dec {
+	background: url(../images/foot_dec.png) repeat-x bottom;
+}
+
+header {
+	overflow: hidden;
+	padding: 14px 0 0 0;
+	margin: 0 0 12px 0;
+	border-bottom: 1px solid #f3f7fa;
+}
+	header h1 {
+		float: left;
+		color: #fff;
+		font-size: 2.6em;
+		margin-bottom: 20px;
+	}
+	header ul.lang {
+		width: 99px;
+		float: right;
+	}
+		header ul.lang li {
+			display: block;
+			float: left;
+		}
+			header ul.lang li a {
+				display: block;
+				width: 27px;
+				height: 18px;
+				margin-left: 6px;
+			}
+			.flag_swis {background: url(../images/lang.png) 0 0; margin-left: 0;}
+			.flag_rus {background: url(../images/lang.png) 0 -18px;}
+			.flag_brit {background: url(../images/lang.png) 0 -36px;}
+			
+	header ul.menu {
+		overflow: hidden;
+		clear: both;
+		font-size: 1.2em;
+		font-family: 'Trebuchet MS';
+		text-transform: uppercase;
+		margin: 0 0 12px 0;
+	}
+		header ul.menu a {
+			color: #cacaca;
+			text-decoration: none;
+		}
+		header ul.menu a:hover {
+			color: #fff;
+		}
+		header ul.menu li {
+			display: block;
+			float: left;
+			padding: 0 15px 0 15px;
+			border-left: 1px solid #cacaca;
+		}
+		header ul.menu li:first-child {
+			padding-left: 0;
+			border-left: none;
+		}
+		
+h2 {
+	margin-top: 10px;
+}
+		
+.content {
+	width: 630px;
+	float: left;
+	color: #797979;
+}
+	.poster {
+		display: block;
+		height: 390px;
+	}
+		.blacktxt {
+			display: block;
+			color: #fff;
+			font-size: 1.1em;
+			font-family: arial;
+			padding: 10px;
+			background: url(../images/black.png);
+		}
+		.blackscroll {
+			overflow: hidden;
+			height: 70px;
+			margin: -80px 0 0 0;
+			padding: 10px 0 0 12px;
+			background: url(../images/black.png);
+		}
+			.blackscroll li {
+				display: block;
+				float: left;
+				width: 60px;
+				height: 60px;
+				margin: 0 12px 0 0;
+			}
+				.blackscroll li.arr_right, .blackscroll li.arr_left {
+					margin: 24px 0 0 0;
+					width: 20px;
+					height: 12px;
+				}
+				
+				.blackscroll li.arr_right a {
+					display: block;
+					width: 10px;
+					height: 10px;
+					background: url(../images/arr_right.png);
+				}
+				.blackscroll li.arr_left a {
+					display: block;
+					width: 10px;
+					height: 10px;
+					background: url(../images/arr_left.png);
+				}
+				.blackscroll li a img {
+					border: 2px solid #cacaca;
+				}
+
+.inpage {
+overflow: hidden;
+	background: #fff;
+}
+	.content {
+		width: 610px;
+		padding: 0 10px 10px 10px;
+	}
+
+aside {
+	width: 320px;
+	float: right;
+}
+	.contacts {
+		overflow: hidden;
+	}
+	.half_l {
+		width: 160px;
+		float: left;
+	}
+	.half_r {
+		width: 160px;
+		float: left;
+	}
+
+	.hcard span.hcard_item {
+		display: block;
+	}
+	.hcard span span {
+		color: #0086aa;
+	}
+	
+	.bb_gallery {
+		display: block;
+		float: left;
+		width: 165px;
+		height: 67px;
+		margin-left: -10px;
+		background: url(../images/gall.png) 0 0;
+	}
+	.bb_gallery:hover {
+		background: url(../images/gall.png) 0 -67px;
+	}
+	
+	.bb_bio {
+		display: block;
+		float: left;
+		width: 165px;
+		height: 67px;
+		background: url(../images/bio.png) 0 0;
+	}
+	.bb_bio:hover {
+		background: url(../images/bio.png) 0 -67px;
+	}
+	.thumb {
+		padding: 3px;
+		border: 1px solid #cfcfcf;
+		float: right;
+		margin-left: 10px;
+	}
+footer {
+	border-top: 1px solid #fff;
+	overflow: hidden;
+	margin: 20px 0 10px 0;
+	padding: 10px 0 10px 0;
+}
+	.foot_menu {
+		float: left;
+	}
+		.foot_menu li {
+			display: inline;
+			margin-left: 4px;
+			padding-left: 6px;
+			border-left: 1px solid #cacaca;
+		}
+		.foot_menu li:first-child {
+			margin-left: 0;
+			padding-left: 0; 
+			border-left: none;
+		}
+			.foot_menu li a {
+				color: #919191;
+				text-decoration: underline;
+			}
+			.foot_menu li a:hover {
+				color: #363636;
+				text-decoration: none;
+			}
+	
+	.copy {
+		float: right;
+	}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head> 
+<title></title>
+<meta charset="UTF-8" /> 
+<meta name="author" content="Михаил Якименко" />
+<link rel="stylesheet" type="text/css" media="all" href="media/css/style.css" />
+<script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="media/js/func.js"></script>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } })(); </script> <![endif]-->	
+</head>
+<body>
+
+<div class="wrap">
+
+    <header class="header">
+        <nav class="top-menu">
+            <ul>
+                <li><a href=""><span>Магазин</span>on-line каталог</a></li>
+                <!-- <li><a href=""><span>продукция</span>каталог товаров</a></li> -->
+                <li><a href=""><span>о нас</span>что мы делаем</a></li>
+                <li><a href=""><span>контакты</span>как связаться</a></li>
+            </ul>
+        </nav>
+        <section class="title">
+            <div class="left">
+                <a href="" class="logo"></a>
+                <h1>Бижутерия и аксессуары. Оптовая продажа</h1>
+            </div>
+            <div class="right">
+                <div>
+                    <input type="text" placeholder="ллогин:" />
+                    <input type="password" placeholder="пароль:"  />
+                </div>
+                <a class="first" href="">регистрация</a><a href="">забыли пароль?</a>
+            </div>
+        </section>
+    </header>
+
+    <aside class="left-bar">       
+        <div class="cart plus">
+            <div>
+                <h3><a href="">Корзина</a></h3>
+                <span>
+                    Товаров в корзине: 0 шт.<br />
+                    На сумму: 0 руб.
+                </span>
+            </div>
+        </div>
+        <ul>
+            <li><a href="">Оформить заказ</a></li>
+            <li><a href="">Вернуться в магазин</a></li>
+        </ul>
+
+        <div class="order-comment">
+            <span>Комментарий к заказу:</span>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <span class="ocomm-send">
+                <!-- <input type="image" src="media/images/addcomm.png"> -->
+                <input type="button" value="Добавить">
+            </span>
+        </div>
+    </aside>
+
+    <section class="content">
+        <nav class="bread">
+            <ul>
+                <li>В вашей корзине находится:</li>
+            </ul>
+        </nav>
+        
+        <section class="box">
+            
+          <div class="formbox">
+
+            <div class="wrap">
+                
+                <h2>Оформление заказа</h2>
+                <span>Поля, отмеченные звездочкой, обязательны для заполнения!</span>
+                             
+                <form action="">
+                                
+                <div class="row">
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Имя:</label><br /><input type="text" /><br />
+                        <label for="">Отчество:</label><br /><input type="text" />
+                    </div>
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Фамилия:</label><br /><input type="text" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Электронная почта:</label><br /><input type="text" /><br />
+                        <label class="free" for=""><span>*</span> Имя пользователя (login):</label><br /><input type="text" />
+                    </div>
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Пароль:</label><br /><input type="text" /><br />
+                        <label class="free" for=""><span>*</span> Подтверждение пароля:</label><br /><input type="text" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Город:</label><br /><input type="text" /><br />
+                        <label for="">Адрес:</label><br /><input type="text" /><br />
+                        <input type="text" /><br />
+                        <input type="text" />
+                    </div>
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Контактный телефон:</label><br /><input type="text" /><br />
+                        <label for="">Мобильный телефон:</label><br /><input type="text" />
+                        <label for="">Факс:</label><br /><input type="text" />
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col">
+                        <label class="free" for=""><span>*</span> Название организации:</label><br /><input type="text" /><br />
+                        <input type="text" /><br />
+                        <input type="text" />
+                    </div>
+                    <div class="col">
+                        <label for="">Веб-сайт:</label><br /><input type="text" /><br />
+                    </div>
+                </div>
+            
+                <!-- clear --><div class="cl"></div>
+                
+                <div class="send">
+                    <input type="submit" value="Оформить заказ" />
+                </div>
+            
+                </form>
+            
+          </div>
+            
+        </div>
+        
+    </section>
+
+</div>
+
+    <footer class="footer">
+        <div class="wrap">
+            
+            <div class="left map">
+                Карта сайта:<br />
+                <ul>
+                    <li><a href="">Магазин</a> /</li>
+                    <li><a href="">Продукция</a> /</li>
+                    <li><a href="">О нас</a> /</li>
+                    <li><a href="">Контакты</a> /</li>
+                    <li><a href="">Розничный магазин</a> /</li>
+                    <li><a href="">Показать все</a></li>
+                </ul>
+                <span>Телефоны: +38(050) 666-21-12; +38(067) 111-22-33</span>
+            </div>
+            <div class="right copy">
+                <div class="search">
+                    <input type="text" class="ssr" placeholder="Поиск"/>
+                    <input type="image" class="find" src="media/images/find.png" />
+                </div>
+                <span class="copy">© «Kameo-Bis», 2010</span>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,338 @@
+/* Автор html/css Михаил Якименко mihailyakimenko.com выполнено для Фоменко Дмитрия компания Креатив 1 февраля 2011 */
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+dl, dt, dd, ol, ul {
+	list-style: none;
+}
+
+article, aside, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, video, object {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+th, td {vertical-align: top;} 
+/* RESET */
+
+body { 
+	background: #fff; 
+	font: 90%/170%  Arial, verdana, "Helvetica Neue", Helvetica, sans-serif;
+	color: #000;
+	padding: 0 0 0 0;
+}
+
+a {
+	color: #a84b0a;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-size: .9em;
+	margin-bottom: 10px;
+	line-height: 120%;
+}
+
+/* my Presets */
+.half {width: 50%;}
+.left {float: left;}
+.right {float: right;}
+.cl {clear: both;font-size: 0em;}
+h1, h2, h3, h4, h5, h6 {color: #a84b0a; font-weight: normal; margin-bottom: .8em;}
+.a_left {text-align: left;}
+.a_right {text-align: right;}
+.a_center {text-align: center;}
+.c_white {
+	color: #fff;
+}
+.debug {
+	border: 1px solid red; 
+}
+/* my Presets */
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	height: 360px;
+	overflow: hidden;
+}
+	.header {
+		margin-bottom: 10px;
+		background: url(../images/header.png) repeat-x top;
+	}
+	.h_decor_left {
+		background: url(../images/headerleft.png) no-repeat top left;
+	}
+	.h_decor_right {
+		background: url(../images/headerright.png) no-repeat top right;
+	}
+
+.logo {
+	display: block;
+	margin: 20px 0 30px 0;
+}
+
+.phone {
+	width: 216px;
+	color: #a24000;
+	font-family: Georgia;
+}
+	.phone p {
+		padding-left: .46em;
+		font-style: italic;
+		font-size: 1.28em;
+	}
+	.phone .prefix {
+		display: block;
+		float: left;
+		margin-right: 0.4em;
+	}
+	.phone .number {
+		font-size: 2.56em;
+	}
+	header .phone {
+		margin: 26px 0 0 214px;
+	}
+	
+.menu {
+	width: 180px;
+	margin: 0 280px 0 0;
+}
+	.menu ul li {}
+		.menu ul li {
+			background: #ffe7bf url(../images/menuli.png) top repeat-x;
+			border: 1px solid #f6d7a1;
+			height: 24px;
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			-o-border-radius: 4px;
+			text-transform: uppercase;
+			font-size: .7em;
+			font-family: 'Arial Black';
+			margin-bottom: 4px;
+			behavior: url(ie-css3.htc);
+		}
+			.menu ul li a {
+				padding: 0 16px 0 16px;
+			}
+			.menu ul li a:hover {
+				color: red;
+				text-decoration: none;
+			}
+.centermenu {
+	float: right;
+}
+
+.content {
+	width: 680px;
+	float: left;
+	overflow: hidden;
+	padding-right: 30px;
+}
+	.leftbox {
+		float: left;
+		width: 320px;
+		margin-right: 10px;
+	}
+		.leftbox .leftmenu {
+			margin: 0 auto;
+		}
+	.rightbox {
+		float: right;
+		width: 320px;
+		margin-left: 10px;
+	}
+	
+article h1 {
+	font-size: 1.2em;
+}
+	.box {
+		padding: 0 10px 10px 10px;
+	}
+
+.titleim {
+	font-size: 1em;
+	text-transform: uppercase;
+	height: 29px;
+	padding: 6px 10px 0 10px;
+	background: url(../images/titleim.png) repeat-x top;
+	border: 1px solid #fed569;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	font-family: 'arial black';
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 4px;
+	behavior: url(ie-css3.htc);
+}
+	.titleim i {
+		position: absolute;
+		display: block;
+	}
+	.titleim.order i {
+		width: 66px;
+		height: 56px;
+		margin: -20px 0 0 170px;
+		background: url(../images/i_order.png) no-repeat;
+	}
+	.titleim.price i {
+		width: 59px;
+		height: 48px;
+		margin: -40px 0 0 240px;
+		background: url(../images/i_price.png) no-repeat;
+	}
+	.titleim.clients i {
+		width: 48px;
+		height: 35px;
+		margin: -10px 0 0 194px;
+		background: url(../images/i_clients.png) no-repeat;
+	}
+	.titleim.repair i {
+		width: 108px;
+		height: 70px;
+		margin: -40px 0 0 -110px;
+		background: url(../images/i_repair.png) no-repeat;
+	}
+		.repair {
+			margin-top: 26px;
+			padding-left: 118px;
+		}
+
+.yellowbox {
+	background: #fff8d9;
+	background: -moz-linear-gradient(100% 100% 90deg, #f1e3a4, #fff8d9);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff8d9), to(#f1e3a4));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff8d9, endColorstr=#f1e3a4)";
+	padding: 12px;
+	margin-bottom: 20px;
+	border: 1px solid #fed569;
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	behavior: url(ie-css3.htc);
+}
+	.waranty .poster {
+		margin-bottom: 10px;
+	}
+	.poster {
+		display: block;
+		margin: 0 auto;
+	}
+	.yellowbox p:last-child {
+		margin-bottom: 0;
+	}
+	.price p {
+		border-top: 1px solid #e6daa3;
+		padding-top: 10px;
+	}
+	.price p:first-child {
+		border-top: none;
+		padding-top: 0;
+	}
+	.price .pricespan {
+		display: block;
+		margin-top: -.02em;
+		color: #a84b0a;
+	}
+	.orderbox .pricedecor {
+		overflow: hidden;
+		background: url(../images/pricedecor.png) no-repeat bottom center;
+	}
+		.orderbox label {
+			display: block;
+			font-size: .9em;
+			margin-bottom: 10px;
+			line-height: 120%;
+			color: #a84b0a;
+			margin: .4em 0 0 0;
+		}
+		.orderbox .input {
+			width: 220px;
+			height: 15px;
+			border: 1px solid #fed569;
+		}
+		.orderbox .send {
+			margin-top: .4em;
+			float: right;
+		}
+
+.yellowboxbig {
+	overflow: hidden;
+	background: #fff8d9;
+	background: -moz-linear-gradient(100% 100% 90deg, #fff6ce, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#fff6ce));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#fff6ce)";
+	padding: 12px;
+	margin-bottom: 20px;
+	border: 1px solid #fed569;
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	behavior: url(ie-css3.htc);
+}
+	/* Удалить это, потому что делать это в будущем будет cms или контент мнагер :) */
+	.yellowboxbig img {
+		margin-left: 10px;
+	}
+
+aside {
+	float: right;
+	width: 250px;
+}
+
+.phonebox {
+	height: 350px;
+	background: url(../images/phone.png) no-repeat bottom right;
+}
+
+footer {
+	height: 74px;
+	margin-top: -90px;
+	padding: 105px 0 10px 0;
+	background: url(../images/footer.png) repeat-x bottom;
+	font-size: .86em;
+}
+	footer p a {
+		color: #000;
+		text-decoration: underline;
+	}
+	.footmenu {
+		margin-bottom: 10px;
+	}
+		.footmenu li {
+			display: inline;
+		}
+			.footmenu li a {
+				border-left: 1px solid #a24000;
+				color: #a24000;
+				padding: 0 12px 0 12px;
+			}
+			.footmenu li:first-child a {
+				border-left: none;
+				color: #a24000;
+				padding: 0 12px 0 0;
+			}

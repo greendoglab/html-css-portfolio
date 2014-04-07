@@ -1,0 +1,351 @@
+/* htmlcoding by macgera */
+
+body {margin: 0; padding:0px; background: #fff url(../images/body.png) repeat-x top; color:#000; font-family: Arial, Tahoma; font-size: 9pt;}
+
+/*---Global tags---*/
+img {border:0;}
+form {padding:0; margin:0;}
+
+a {color:#de0000; text-decoration:underline;}
+a:hover {text-decoration:none;}
+
+h1, h2, h3, h4 {margin: 0;}
+h1 {color: #000;}
+h2 {color: #000;}
+h3 {color: #000;}
+h4 {}
+
+ul {margin: 0; padding: 0; list-style: none;}
+ul li {}
+
+p {}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+td {margin: 0; padding: 0; vertical-align: top;}
+th {text-align: left; vertical-align: top;}
+
+quote {padding: 5px;border: 1px dashed gray;background: white;margin-bottom: 15px;}
+
+div {text-align: left;}
+
+.left {float: left;}
+.right {float: right;}
+
+.half {width: 50%;}
+
+.red {
+    color: #ff0000;
+}
+
+.wh {
+    color: #fff;
+}
+
+.gray {
+    color: #9e9e9e;
+}
+
+.red {
+    color: #d80000;
+}
+
+.cl {clear:both; font-size:0;}
+
+/* End global tags */
+
+.wrap {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.head1 {
+    background: #000;
+    height: 38px;
+}
+
+    .head1 ul {
+        float: left;
+        padding-top: 12px;
+        padding-left: 37px;
+    }
+    
+    .head1 ul li {
+        display: inline;
+    }
+
+    .head1 ul li.first a {
+        color: #fff;
+        font-size: 9pt;
+        text-decoration: none;
+        padding: 3px 22px 3px 0;
+        border-left: none;
+    }
+
+    .head1 ul li a {
+        color: #fff;
+        font-size: 9pt;
+        text-decoration: none;
+        padding: 3px 22px 3px 22px;
+        border-left: 1px #fff dotted;
+    }
+    
+    .head1 ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .head1 div {
+        padding-top: 8px;
+    }
+    
+    .search_form {
+        width: 193px;
+        height: 19px;
+        padding: 0 9px 0 9px;
+        border: 1px solid #757575;
+        margin-right: 11px;
+    }
+    
+    .search_butt {}
+
+.head2 {
+    background: url(../images/top.png) left top no-repeat;
+    height: 275px;    
+}
+    
+    .head2_side {
+        height: 155px;
+        padding-top: 120px;
+        background: url(../images/call.png) 0px 48px no-repeat;
+        width: 194px;
+    }
+    
+    .phones {
+        color: #d92819;
+        font-size: 14pt;
+    }
+    
+    .adress h3 {
+        font-size: 14pt;
+        margin: 5px 0 5px 0;
+    }
+
+.sidebar_l {
+    width: 199px;
+    padding: 0 10px 0 37px;
+    background: url(../images/lefts.png) no-repeat;
+}
+
+    .sidemenu {
+        padding-top: 100px;
+        background: url(../images/service.png) 0px 50px no-repeat;
+        margin-bottom: 114px;
+    }
+    
+    .sidemenu ul li {
+        margin-bottom: 5px;
+    }
+    
+    .sidemenu ul li a {
+        color: #000;
+        font-size: 11pt;
+    }
+    
+    .sidemenu ul li a.now {
+        font-weight: bold;
+    }
+    
+    .cast div img {
+        float: left;
+        margin-right: 5px;
+    }
+    
+    .cast div h3 {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 10pt;
+    }
+    
+    .cast div a {
+        float: right;
+        font-weight: bold;
+        font-size: 9pt;
+        color: #d92819;
+        text-decoration: none;
+    }
+    
+    .cast div a:hover {
+        text-decoration: underline;
+    }
+    
+    .cast div a img {
+        float: none;
+    }
+    
+    .cast div span.ei {
+        font-size: 7pt;
+    }
+
+.sidebar_r {
+    width: 194px;
+}
+
+    .news h3 {
+        color: #d92819;
+        font-size: 13pt;
+    }
+    
+    .news div {
+        border-bottom: 1px dotted #d6d6d6;
+        padding-bottom: 10px;
+    }
+    
+    .news div h3 {
+        font-size: 10pt;
+        font-style: italic;
+        color: #000;
+        margin: 5px 0 8px 0;
+    }
+    
+    .news div span {
+        background: #585757;
+        padding: 0 5px 0 5px;
+        color: #fff;
+    }
+    
+    .news div a {
+        float: right;
+        font-weight: bold;
+        font-size: 9pt;
+        color: #d92819;
+        text-decoration: none;
+    }
+    
+    .news div a:hover {
+        text-decoration: underline;
+    }
+    
+    .allnews {
+        margin-top: 10px;
+        float: right;
+        font-weight: bold;
+        font-size: 9pt;
+        color: #656565;
+    }
+
+.ctn {
+    background: url(../images/ctn.png) left top no-repeat;
+    width: 534px;
+    padding-right: 15px;
+}
+
+    .top {
+        border-bottom: 1px solid #d6d6d6;
+        padding-bottom: 10px;
+    }
+
+    .topmenu {
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .topmenu h1 {
+        display: inline;
+        font-size: 11pt;
+        margin-right: 22px;
+    }
+    
+    .topmenu h1 a {
+        color: #7d7d7d;
+        text-decoration: underline;
+    }
+    
+    .topmenu h1 a:hover{
+        text-decoration: none;
+    }
+    
+    .top ul li {
+        display: inline;
+        margin-right: 2px;
+    }
+       
+    .top ul li a {
+        color: #d92819;
+        text-decoration: none;
+    }
+    
+    .top ul li a:hover {
+        text-decoration: underline;
+    }
+    
+        .top ul li span {
+            color: #d92819;
+        }
+        
+.content h1 {
+    color: #d92819;
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+.content ul {
+    margin: 8px 0 8px 0;
+}
+
+.content ol {
+    margin: 8px 0 8px 0;
+    padding-left: 16px;
+}
+
+.links h3 {
+    color: #de0000;
+}
+
+.links ul li {
+    padding-left: 15px;
+    background: url(../images/links.png) 0 5px no-repeat;
+}
+
+.links ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.folio {
+    background: #c71708;
+    padding: 8px 0 0 0;
+    margin-top: 25px;
+}
+
+    .fo_foot {
+        background: #000;
+        margin-top: 8px;
+        color: #fff;
+        padding: 8px;
+    }
+    
+    .folio_stable {
+        width: 979px;
+        margin: 0 auto;
+        padding-left: 60px;
+    }
+    
+    .folio_txt {
+        width: 180px;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .folio_im {
+        width: 760px;
+        padding: 8px;
+        background: #910100;
+    }
+    
+    .folio_im img {
+        float: left;
+    }

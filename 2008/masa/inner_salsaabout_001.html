@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TITLE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" href="ie.css" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link rel="stylesheet" href="iesix.css" type="text/css" />
+<![endif]-->
+<script language="Javascript">
+   var timers = Array();
+
+   function hideSubmenuDo(submenu_layer_id){
+       document.getElementById(submenu_layer_id).style.display = 'none';
+   }
+
+   function hideSubmenu(submenu_layer_id){
+       timers[submenu_layer_id] = setTimeout("hideSubmenuDo('"+submenu_layer_id+"')", 1000);
+
+       return false;
+   }
+
+   function showSubmenu(submenu_layer_id){
+
+       for (var tmp in timers){
+           if (tmp!=submenu_layer_id){
+               hideSubmenuDo(tmp);
+               clearTimeout(timers[tmp]);
+           }
+       }
+
+       document.getElementById(submenu_layer_id).style.display = 'block';
+       clearTimeout(timers[submenu_layer_id]);
+
+       return false;
+   }
+
+</script>
+</head>
+<body>
+   
+<div id="lang">По русски&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">In english</a></div>
+
+<div class="main in3">
+   <div class="sidebar left">
+      <div class="logo"><a href="#"><img src="images/logo.png" alt="logo" /></a></div>
+      <ul class="allmenu">
+	 <li class="menu1">
+	    <a href="#" onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');">Что такое сальса</a>
+	       <ul id="submenu1" class="podmenu" onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');">
+		  <li class="menu2"><a href="#">Клубы сальсы</a></li>
+		  <li class="menu2"><a href="#">Танцевальные магазины</a></li>
+		  <li class="menu2"><a href="#">Галерея</a></li>
+		  <li class="menu2"><a href="#">Форум</a></li>
+		  <li class="menu2"><a href="#">Ссылки</a></li>
+	       </ul>
+	 </li>
+	 <li class="menu1">
+	    <a href="#" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');">О нас</a>
+	       <ul id="submenu2" class="podmenu" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');">
+		  <li class="menu2"><a href="#">Клубы сальсы</a></li>
+		  <li class="menu2"><a href="#">Танцевальные магазины</a></li>
+		  <li class="menu2"><a href="#">Галерея</a></li>
+		  <li class="menu2"><a href="#">Форум</a></li>
+		  <li class="menu2"><a href="#">Ссылки</a></li>
+	       </ul>
+	 </li>
+	 <li class="menu1">
+	    <a href="#" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3);">Курсы</a>
+	       <ul id="submenu3" class="podmenu" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');">
+		  <li class="menu2"><a href="#">Клубы сальсы</a></li>
+		  <li class="menu2"><a href="#">Танцевальные магазины</a></li>
+		  <li class="menu2"><a href="#">Галерея</a></li>
+		  <li class="menu2"><a href="#">Форум</a></li>
+		  <li class="menu2"><a href="#">Ссылки</a></li>
+	       </ul>      
+	 </li>
+	 <li class="menu1">
+	    <a href="#" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');">Контакты</a>
+	       <ul id="submenu4" class="podmenu" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');">
+		  <li class="menu2"><a href="#">Клубы сальсы</a></li>
+		  <li class="menu2"><a href="#">Танцевальные магазины</a></li>
+		  <li class="menu2"><a href="#">Галерея</a></li>
+		  <li class="menu2"><a href="#">Форум</a></li>
+		  <li class="menu2"><a href="#">Ссылки</a></li>
+	       </ul>
+	 </li>
+	 <li class="menu1">
+	    <a href="#" onMouseOver="return showSubmenu('submenu5');" onMouseOut="return hideSubmenu('submenu5');">Вокруг Сальсы</a>
+	       <ul id="submenu5" class="podmenu" onMouseOver="return showSubmenu('submenu5');" onMouseOut="return hideSubmenu('submenu5');">
+		  <li class="menu2"><a href="#">Клубы сальсы</a></li>
+		  <li class="menu2"><a href="#">Танцевальные магазины</a></li>
+		  <li class="menu2"><a href="#">Галерея</a></li>
+		  <li class="menu2"><a href="#">Форум</a></li>
+		  <li class="menu2"><a href="#">Ссылки</a></li>
+	       </ul>
+	 </li>
+      </ul>      
+   </div>
+   <div class="content right">
+      <div class="cin">
+	 <div class="cintop"></div>
+	  <div class="cinmidd">
+	    <div id="box">
+	       <h1>Программа обучения</h1>
+	       <p>
+		  <img src="images/test.png" alt="" class="rightmargin" />
+		  Из истории возникновения
+Сальса – кубинский народный танец. Родившись на острове Свободы, танец, благодаря своей природной привлекательности быстро вышел за границы Кубы, покорив страны всего мира. Мигрировав в Северную Америку, сальса приобрела огромную популярность. Для привлечения внимания со стороны продюсеров Голливуда, танцоры пытались добавить эффектности и зрелищности своему танцу. Так в Лос-Анжелесе родился новый стиль. В то время в Нью-Йорке сальса встретила популярное направление джаза, где, смешавшись с ним, родилась в новом стиле. Эти линейные стили обрели бешеную популярность в Европе, теперь и в России.
+Сальса – импровизационный танец, относящийся к категории social dance. Он рассчитан на любой уровень подготовки для людей любого возраста. Освоив его основы, вы сможете создавать свой неповторимый танец. Совершенствуя свое мастерство, вы сможете общаться на едином языке с людьми из разных стран и с разных континентов мира. Вобрав в себя весь колорит Карибского бассейна, Центральной и Южной Америки, это воплощение праздника и 
+веселья, чувственности и сексуальности не оставляет равнодушным никого. Сальса – это больше, чем танец, это средство общения, особый стиль жизни, чувство радости (праздника) и позитива, которых порой так не хватает в этом стремительном мире.
+	       </p>
+	       <p>
+		  <img src="images/test.png" alt="" class="leftmargin" />
+		  Из истории возникновения
+Сальса – кубинский народный танец. Родившись на острове Свободы, танец, благодаря своей природной привлекательности быстро вышел за границы Кубы, покорив страны всего мира. Мигрировав в Северную Америку, сальса приобрела огромную популярность. Для привлечения внимания со стороны продюсеров Голливуда, танцоры пытались добавить эффектности и зрелищности своему танцу. Так в Лос-Анжелесе родился новый стиль. В то время в Нью-Йорке сальса встретила популярное направление джаза, где, смешавшись с ним, родилась в новом стиле. Эти линейные стили обрели бешеную популярность в Европе, теперь и в России.
+Сальса – импровизационный танец, относящийся к категории social dance. Он рассчитан на любой уровень подготовки для людей любого возраста. Освоив его основы, вы сможете создавать свой неповторимый танец. Совершенствуя свое мастерство, вы сможете общаться на едином языке с людьми из разных стран и с разных континентов мира. Вобрав в себя весь колорит Карибского бассейна, Центральной и Южной Америки, это воплощение праздника и 
+веселья, чувственности и сексуальности не оставляет равнодушным никого. Сальса – это больше, чем танец, это средство общения, особый стиль жизни, чувство радости (праздника) и позитива, которых порой так не хватает в этом стремительном мире.
+	       </p>
+	       <p style="text-align: right;"><a href="#">Видео сальса</a></p>
+	    </div>
+	  </div>
+	 <div class="cinbott"></div>
+      </div>
+   </div>
+   <div class="cl"></div>
+   <div class="footer">
+      <div class="footer1 left">
+	 <div class="phone"></div>
+	 <a href="#">Телефоны в Москве</a>
+      </div>
+      <div class="footer2 right">
+	 <div class="footctn left">
+	    <img src="images/count.png" alt="0" /> <img src="images/count.png" alt="0" /> <img src="images/count.png" alt="0" />
+	    <p>
+	       <a href="#">Партнерские ссылки</a>&nbsp;&nbsp;
+	       <a href="#">Партнерские ссылки</a>&nbsp;&nbsp;
+	       <a href="#">Партнерские ссылки</a>&nbsp;&nbsp;
+	       <a href="#">Партнерские ссылки</a>&nbsp;&nbsp;
+	       <a href="#">Партнерские ссылки</a>&nbsp;&nbsp;
+	    </p>
+	 </div>
+	 <div class="copy right">&copy; 2008 MAsalsa</div>
+      </div>
+      <div class="cl"></div>
+   </div>
+</div>
+
+</body>
+</html>

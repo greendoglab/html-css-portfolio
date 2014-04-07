@@ -1,0 +1,475 @@
+/* Author html/css Mihail Yakimenko mihailyakimenko.com do for João Correia 2011 February */
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+dl, dt, dd, ol, ul {
+	list-style: none;
+}
+
+img {outline: 0;}
+a img {border: 0;}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+th, td {vertical-align: top;} 
+/* RESET */
+
+@font-face {
+	font-family: Aller;
+	src: url(fonts/Aller_Lt.ttf);
+}
+
+@font-face {
+	font-family: Aller;
+	font-weight: bold;
+	src: url(fonts/Aller_Bd.ttf);
+}
+
+@font-face {
+	font-family: Aller;
+	font-weight: bold;
+	font-style: italic;
+	src: url(fonts/Aller_Bdlt.ttf);
+}
+
+body { 
+	font: 90%/170% Aller, Arial, Verdana;
+	color: #000;
+	padding: 0 0 0 0;
+}
+
+a {
+	color: #ba0f63;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: Underline;
+}
+
+/* my Presets */
+.half {width: 50%;}
+.left {float: left;}
+.right {float: right;}
+.cl {clear: both;font-size: 0em;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-bottom: .8em;}
+.a_left {text-align: left;}
+.a_right {text-align: right;}
+.a_center {text-align: center;}
+.c_white {
+	color: #fff;
+}
+.debug {
+	border: 1px solid red; 
+}
+
+/* my Presets */
+
+/* wraps and more */
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.blue {
+	height: 463px;
+	background: #079cd7;
+}
+
+.gray {
+	padding: 0 0 20px 0;
+	color: #3b2712;
+	background: #e3dfdc url(../images/gray.png) repeat-x top;
+}
+/* wraps and more */
+
+.land1 {
+	padding-top: 7px;
+	background: url(../images/land1.jpg) no-repeat center top;
+}
+
+.land2 {
+	padding-top: 7px;
+	background: url(../images/land2.jpg) no-repeat center top;
+}
+
+.land3 {
+	padding-top: 7px;
+	background: url(../images/land3.jpg) no-repeat center top;
+}
+
+.header {
+	height: 114px;
+	background: url(../images/header.png) repeat-x;
+}
+	.he_logo {
+		float: left;
+		margin-top: 8px;
+		width: 192px;
+		height: 95px;
+		background: url(../images/logo.png) no-repeat;
+	}
+	.he_menu {
+		position: absolute;
+		height: 144px;
+		margin: -6px 0 0 260px;
+		overflow: hidden;
+		z-index: 99;
+	}
+		.he_menu li {
+			display: block;
+			float: left;
+			width: 138px;
+			height: 144px;
+			z-index: 99;
+		}
+			.he_menu li a {
+				display: block;
+				width: 138px;
+				height: 90px;
+				padding: 54px 0 0 0;
+				text-align: center;
+				text-decoration: none;
+				color: #fff;
+				font-weight: bold;
+				font-size: 1.1em;
+				line-height: 130%;
+				text-shadow: -1px 1px 1px #282828; 
+				z-index: 99;
+			}
+			.he_menu li a:hover {
+				display: block;
+				background: url(../images/he_menu.png) no-repeat center;
+			}
+			
+.he_block {
+	margin: 24px 0 0 0;
+}
+
+.main_h1 {
+	margin: 0 0 22px 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.4em;
+	line-height: 100%;
+	text-shadow: -1px 1px 1px #282828;
+}
+
+.wt_sh {
+	color: #fff;
+	text-shadow: -1px 1px 1px #282828; 
+}
+
+.inp_long, .inp_short {
+	color: #3b2712;
+	padding: 8px 11px 12px 11px;
+	margin-bottom: 14px;
+	font-style: italic; 
+	font-weight: bold;
+}
+.inp_long {
+	width: 258px;
+	height: 14px;
+	border: none;
+	background: url(../images/inp_long.png) no-repeat;
+}
+
+.inp_short {
+	width: 115px;
+	height: 14px;
+	border: none;
+	background: url(../images/inp_short.png) no-repeat;
+}
+
+.select {
+	width: 115px;
+	height: 16px;
+	padding: 5px 11px 12px 11px;
+	background: url(../images/select.png) no-repeat;
+	font-style: italic;
+}
+	.select a {
+		color: #3b2712;
+		text-decoration: none;
+		font-size: .76em;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.sub {
+		position: absolute;
+		width: 93px;
+		background: #fff; 
+	}
+		.sub li {}
+			.sub li a {
+				display: block;
+				padding: 0 6px 0 6px;
+			}
+			.sub li a:active {background: #c5bdb8;}
+			.sub li a:hover {background: #d5cfcb;}
+		.label {
+			display: block;
+			float: left;
+			width: 115px;
+			height: auto;
+			margin-right: 20px;
+			text-align: right;
+			line-height: 120%;
+			font-size: .8em;
+			font-style: italic;
+			font-weight: bold;
+		}
+		/* fix */
+		.mgr-fix {
+			margin-right: 10px;
+		}
+		.lmgr-fix {
+			margin: 0 19px 14px 0;
+		}
+		.pt-fix {
+			width: 114px;
+			padding-top: 10px;
+		}
+		.lpt-fix {
+			padding-top: 3px;
+		}
+		.sbm-fix {
+			float: right;
+			margin-top: 10px;
+		}
+		/* fix */
+.drop_arrow {
+	position: absolute;
+	margin: -2px 0 0 100px;
+}
+
+/* blocks */
+.he_mini {
+	float: left;
+}
+.gr_mini {
+	float: left;
+}
+.he1_decor {
+	position: absolute;
+	margin: -9px 0 0 560px;
+	z-index: 10;
+}
+.he2_decor {
+	position: absolute;
+	margin: 60px 0 0 540px;
+	z-index: 0;
+}
+
+.casa {
+	position: absolute;
+	margin: 0 0 0 -120px;
+}
+
+.land1_m1 {
+	width: 374px;
+}
+	.land1_m1 h2 {
+		font-weight: bold;
+		color: #fff;
+	}
+		.land1_m1 h2 span {
+			color: #000;
+		}
+	.land1_m1 p {
+		font-size: 1.1em;
+	}
+.land1_gr1 {
+	width: 290px;
+}
+	.land1_gr1 form .submit {
+		float: right;
+		margin: 0 -6px 0 0;
+	}
+	.land1_gr1 form .inp_short {
+		font-weight: bold;
+	}
+.land1_m2 {
+	width: 254px;
+	height: 230px;
+}
+	.gr_title {
+		display: block;
+		height: auto;
+		margin: 22px 0 14px 0;
+		font-size: 1.4em;
+	}
+	.gr_mini {
+		float: left;
+	}
+	.ge_list {
+		float: left;
+		margin-left: 20px;
+	}
+		.land1_gr2 span {
+		margin-top: 64px;
+			margin-left: 20px; 
+		}
+		.ge_list.first {
+			width: 310px;
+		}
+			.ge_list.first li {
+				margin: 0 0 14px 0;
+				padding: 0 0 0 26px;
+				background: url(../images/list.png) no-repeat 0 4px;
+				font-weight: bold;
+				text-shadow: 1px 1px 1px #fff;
+			}
+		.ge_list.second {
+			width: 300px;
+		}
+			.ge_list.second li {
+				margin: 0 0 14px 0;
+				padding: 0 0 0 26px;
+				background: url(../images/list.png) no-repeat 0 4px;
+				font-weight: bold;
+				text-shadow: 1px 1px 1px #fff;
+			}
+	.contacte {
+		position: absolute;
+		margin: -24px 0 0 648px;
+		display: block;
+		width: 194px;
+		height: 57px;
+		background: url(../images/contactenos.png) no-repeat;
+	}
+	.contacte2 {
+		position: absolute;
+		margin: -24px 0 0 640px;
+		display: block;
+		width: 194px;
+		height: 57px;
+		background: url(../images/contactenos.png) no-repeat;
+	}
+.land1_m3 {
+	width: 208px;
+}
+	.land1_m3 p {
+		color: #fff;
+		padding: 36px 0 0 20px;
+		font-size: 1.1em;
+	}
+		.land1_m3 p strong {
+			font-size: 1.4em;
+		}
+		
+.land2_m3 {
+	width: 208px;
+}
+	.land2_m3 p {
+		color: #fff;
+		padding: 0 0 0 0;
+		font-size: 1.1em;
+	}
+		.land2_m3 p strong {
+			font-size: 1.4em;
+		}
+
+.quot {
+	width: 520px;
+	height: 268px;
+	position: absolute;
+	margin: -28px 0 0 440px;
+}
+	.quot_in {
+		float: left;
+	}
+		.quot_in div.item {
+			width: 400px;
+			height: 260px;
+			overflow: hidden;
+			margin: 0 20px 0 30px;
+		}
+			.quot_in div.item img {
+				float: left;
+			}
+			.quot_in div.item p {
+				padding: 80px 0 0 20px;
+				display: table;
+			}
+	.qllist {
+		float: left;
+		display: block;
+		width: 19px;
+		height: 30px;
+		margin: 140px 0 0 0;
+		background: url(../images/qleft.png) 0 0 no-repeat;
+	}
+	.qllist:hover {
+		background: url(../images/qleft.png) -19px 0 no-repeat;
+	}
+	.qrlist {
+		float: right;
+		display: block;
+		width: 19px;
+		height: 30px;
+		margin: 140px 0 0 0;
+		background: url(../images/qright.png) -19px 0 no-repeat;
+	}
+	.qrlist:hover {
+		background: url(../images/qright.png) 0 0 no-repeat;
+	}
+
+.drop_blue {
+	position: absolute;
+	margin: -46px 0 0 0;
+	width: 293px;
+	height: 52px;
+	background: url(../images/drop_blue.png) no-repeat;
+}
+	.drop_blue span {
+		display: block;
+		padding: 6px 0 0 0;
+		font-size: 1.4em;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+		text-shadow: -1px 1px 1px #282828;
+	}
+	
+.spec_txt {
+	width: 150px;
+	padding: 58px 20px 0 0;
+	color: #013d6d;
+	text-align: right;
+}
+
+.spec_env {
+	margin: 58px 0 0 0;
+}
+
+.footer {
+	background: #f5f3f2;
+}
+	.footer div p {
+		padding: 20px 0 20px 0;
+		font-family: Arial, helvetica;
+		color: #3b2712;
+		font-style: italic;
+	}
+		.footer div p a {
+			color: #3b2712;
+		}
+/* blocks */
+
+
+
+
+
+
+
+
+
+
+

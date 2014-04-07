@@ -1,0 +1,167 @@
+/* Автор html/css Михаил Якименко mihailyakimenko.com выполнено для  */
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+dl, dt, dd, ol, ul {
+	list-style: none;
+}
+
+article, aside, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, video, object {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+th, td {vertical-align: top;} 
+/* RESET */
+
+body { 
+	background: #53a7d1 url(../images/back.png); 
+	font: 90%/170%  'PT Sans', Arial, verdana, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px 3px #105476;
+	padding: 0 0 0 0;
+}
+
+a {
+	color: #d4f1ff;
+	text-decoration: underline;
+}
+a:hover {
+	color: #3aff68;
+}
+
+/* my Presets */
+.half {width: 50%;}
+.left {float: left;}
+.right {float: right;}
+.cl {clear: both;font-size: 0em;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-bottom: .8em;}
+.a_left {text-align: left;}
+.a_right {text-align: right;}
+.a_center {text-align: center;}
+.c_white {
+	color: #fff;
+}
+.debug {
+	border: 1px solid red; 
+}
+/* my Presets */
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	overflow: hidden;
+	margin: 20px 0 40px 0;
+}
+	.logo {
+		display: block;
+		width: 196px;
+		height: 61px;
+		background: url(../images/logo.png) 0 0;
+	}
+	.logo:hover {
+		display: block;
+		width: 196px;
+		height: 61px;
+		background: url(../images/logo.png) 0 -61px;
+	}
+	ul.top_menu {
+		padding-top: 40px;
+	}
+	ul.top_menu li {
+		display: inline;
+		margin: 0 0 0 14px;
+	}
+		ul.top_menu li a {
+			font-size: 1.2em;
+			padding: 3px 6px 3px 6px;
+			background: url(../images/black.png);
+			color: #fff;
+			text-shadow: 1px 1px 3px #3a3a3a;
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			-o-border-radius: 4px;
+			text-decoration: none;
+		}
+		ul.top_menu li a:hover {
+			color: #3aff68;
+			background: url(../images/white.png);
+		}
+
+.block {
+	padding: 20px;
+	background: url(../images/white.png);
+	margin: 0 0 20px 0;
+	font-size: 1.1em;
+}
+	.block p {
+		margin-bottom: 1.5em;
+	}
+	.block p:last-child {
+		margin-bottom: 0;
+	}
+
+.request {
+	text-align: center;
+}
+	.request input.field {
+		display: block;
+		width: 400px;
+		height: 20px;
+		padding: 10px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		font-size: 1.2em;
+		color: #707070;
+		border: 1px solid #3eb8f3;
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+	}
+		.request input.field:last-child {
+			margin-bottom: 0;
+		}
+	.send {
+		background: #00b7ea; /* old browsers */
+		background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); /* firefox */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3)); /* webkit */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* ie */
+		border: 1px solid #fff;
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		color: #303030;
+		text-shadow: 1px 1px 2px #fff;
+		font-size: 1.6em;
+	}
+	.send:hover {
+		background: #b6e026; /* old browsers */
+		background: -moz-linear-gradient(top, #b6e026 0%, #abdc28 100%); /* firefox */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b6e026), color-stop(100%,#abdc28)); /* webkit */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#abdc28',GradientType=0 ); /* ie */
+	}
+	
+footer {
+	margin: 20px 0 20px 0;
+	text-align: center;
+}

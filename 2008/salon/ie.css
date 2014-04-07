@@ -1,0 +1,60 @@
+.menuin:hover {
+background: url(img/menuin_2.png);
+}
+
+.tit {
+background: url(img/black_2.png);
+padding: 5px 10px 5px 10px;
+color: #05A1DA;
+}
+
+.con {
+background: url(img/white_2.png);
+padding: 5px 10px 5px 10px;
+}
+
+.con ul {
+padding: 0 0 0 20px;
+list-style: url(img/list.png);
+margin-left: 0;
+}
+
+.con ul li {
+padding-bottom: 4px;
+}
+
+.con_menu {
+float: right;
+width: 145px;
+background: url(img/black_2.png);
+padding: 5px 15px 5px 15px;
+}
+
+.con_menu  ul {
+padding: 0 0 0 15px;
+list-style: url(img/list.png);
+margin-left: 0;
+}
+
+#footer ul {
+padding: 0;
+margin-left: 0;
+}
+
+#footer ul li {
+color: white;
+display: inline;
+padding-left: 20px;
+}
+
+#footer ul li.first {
+padding-left: 0;
+}
+
+#footer ul li a {
+padding-left: 20px;
+}
+
+#footer ul li.first a {
+padding-left: 0;
+}

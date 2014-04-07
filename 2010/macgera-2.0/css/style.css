@@ -1,0 +1,229 @@
+/*
+-----------------------------------------------
+Site Screen Master
+Author:   macgera at http://macgera.com.ua
+Version:  15 mar 2010
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+
+body {
+    font: 62.5%/1 "Myriad Pro", arial, sans-serif;
+    background: #dfdfdf url(../images/body.png);
+    font: 12px/1.0 Arial;
+    color: #838383;
+    line-height: 170%;
+}
+
+a {
+    color: #5285b9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #7c7c7c;
+}
+
+.out_1 {
+    background: #fff;
+}
+
+.out_2 {
+    background: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    background: url(../images/out_c1.png) top center no-repeat;
+    padding: 22px 10px 0 10px;
+}
+
+    .out_container {
+        background: url(../images/out_c2.png) bottom center no-repeat;
+        padding-bottom: 22px;
+    }
+
+
+.head {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    height: 264px;
+    background: url(../images/glass.png) 540px 59px no-repeat;
+    line-height: 100%;
+}
+
+.glass {
+    padding: 58px 0 0 442px;
+    height: 45px;
+}
+
+    .glass a {
+        font-size: .9em;
+    }
+    
+.titles {
+    height: 84px;
+}
+
+    .titles h1 {
+        font-size: 3em;
+        margin-bottom: .4em;
+    }
+    
+    .titles h2 {
+        font-size: 1.6em;
+    }
+    
+.topmenu {
+    background: url(../images/topmenu.png) top left no-repeat;
+    height: 77px;
+}
+
+    .topmenu ul {
+        list-style: none;
+    }
+    
+        .topmenu ul li {
+            padding: 34px 40px 0 0;
+            float: left;
+        }
+        
+            .topmenu ul li a {
+                color: #7d7d7d;
+                font-weight: bold;
+            }
+            
+        .topmenu ul li.logo {
+            padding-top: 24px;
+        }        
+
+.content {
+    width: 620px;
+    float: left;
+    margin-right: 10px;
+}
+
+    .inbox_1 {
+        border: 1px solid #c2c2c2;
+    }
+    
+    .inbox_2 {
+        border: 1px solid #fff;
+        background: #e4e4e4;
+        padding: 28px;
+    }
+    
+    .box {
+        padding: 25px 5px 25px 25px;
+        background: #fff;
+    }
+    
+        .post {
+            width: 245px;
+            margin:0 20px 30px 0;
+            float: left;
+        }
+        
+            .poster {
+                border: 1px solid #afafaf;
+                background: #e0e0e0;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+            
+            .post_cat {
+                border-top: 1px solid #e7e7e7;
+                padding-top: 5px;
+                font-size: .9em;
+            }
+            
+            .post h2 {
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+
+.sidebar {
+    width: 300px;
+    float: right;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+    .sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5 {
+        color: #000;
+        margin-bottom: 10px;
+    }
+    
+    .twitt {
+        list-style: url(../images/twitt.png);
+        padding-left: 21px;
+    }
+    
+    .list {
+        list-style: url(../images/list.png);
+        padding-left: 21px;
+    }
+
+    .side_menu li {
+        margin-bottom: 1em;
+    }
+
+    .side_menu li a {
+        font-size: 1.4em;
+        color: #545454;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #fff;
+        text-decoration: none;
+    }
+    
+    .side_menu li a:hover {
+        color: #789127;
+        text-decoration: underline;
+    }
+    
+    .side_menu li a:hover .works_inblog {
+            font-size: .65em;
+            font-weight: normal;
+            text-shadow: none;
+            color: #fff;
+            background: red;
+            padding: 0 5px 0 5px;
+            -webkit-border-radius: .8em;
+        }
+        
+        .side_menu li a.works_all {
+            color: #0984d2;
+        }
+        
+    .sidebar_line {
+        background: url(../images/sidebar_line.png) top left no-repeat;
+        padding-top: 1.6em;
+    }
+
+.footer {
+    width: 940px;
+    margin: 0 auto;
+    padding: 32px 10px 32px 10px;
+    font-size: .9em;
+}
+
+    .footer_block {
+        width: 300px;
+        float: left;
+    }
+    
+        .foot_1 {
+            width: 245px;
+            padding-left: 55px;
+            margin-right: 20px;
+        }
+        
+        .foot_2 {
+            margin-right: 20px;
+        }
+        
+        .history {
+            asd
+        }

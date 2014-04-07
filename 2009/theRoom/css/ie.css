@@ -1,0 +1,183 @@
+.leftblock {
+    width: 376px;
+    height: 762px;
+    margin-right: 14px;
+}
+
+.centerblock {
+    width: 375px;
+    height: 833px;
+}
+
+.rightblock {
+    float: right;
+    width: 240px;
+    height: 756px;
+}
+
+.ier {
+    height: 782px;
+}
+
+.special_list li {
+    clear: both;
+    padding-top: 12px;
+    padding-left: 90px;
+    color: #656565;
+}
+
+.spec {
+    width: 110px;
+    margin-left: -70px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    text-align: right;
+}
+
+.right_ie {
+    height: 826px;
+}
+
+.width_ie {
+    width: 764px;
+}
+
+.partners_item {
+    width: 190px;
+    height: 140px;
+    margin-right: 32px;
+    padding-top: 14px;
+}
+
+.searchdiv {
+    padding-left: 83px;
+    padding-bottom: 26px;
+}
+
+.last {
+    margin-top: -11px;
+    position: relative;
+}
+
+.news_list {
+    height: 99px;
+    padding-top: 73px;
+}
+
+.article_list {
+    height: 102px;
+    padding-top: 219px;
+}
+
+.blog_list {
+    height: 96px;
+    padding-top: 227px;
+}
+
+.decor_news {
+    height: 168px;
+    background: url(../images/decor_news.png ) bottom no-repeat;
+}
+
+.topic {
+    margin-bottom: -21px;
+}
+
+.news_list {
+    text-align: left;
+    width: 15px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin-left: -23px;
+    margin-top: -318px;
+}
+
+.article_list {
+    width: 15px;
+    position: relative;
+    float: left;
+    margin-left: -23px;
+    margin-top: -472px;
+}
+
+.blog_list {
+    width: 15px;
+    height: 10px;
+    position: relative;
+    float: left;
+    margin-left: -23px;
+    margin-top: -310px;
+}
+
+.grayline {
+    width: 745px;
+    margin-left: -40px;
+    height: 1px;
+    background: #e1e1e1;
+    font-size: 0;
+}
+
+    .capsend {
+        margin-top: -20px;
+        float: right;
+        margin-left: 120px;
+    }
+    
+.artsin_ie {
+    background: red;
+}
+
+.height_block {
+    height: 760px;
+}
+
+h1.blackh {
+    margin-left: -90px;
+    font-family: times new roman, roman;
+    font-size: 24pt;
+    padding-top: 10px;
+    margin-bottom: 0;
+    height: 58px;
+    font-weight: normal;
+    color: #4d4d4d;
+}
+
+.rin {
+    height: 770px;
+}
+
+.org {
+    width: 90px;
+    margin-left: -70px;
+    color: #a7a7a7;
+    text-align: right;
+}
+
+.title_block {
+    width: 350px;
+    color: #a7a7a7;
+    padding-top: 6px;
+}
+
+.tend_img {
+    border-top: 3px solid #ffbb1f;
+    float: left;
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+}
+
+.tend_left {
+}
+
+.mark2 {
+    display: block;
+    width: 38px;
+    height: 20px;
+    padding-left: 8px;
+    background: url(../images/mark2.png) no-repeat left top;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -50px;
+}

@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Title</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<!--[if IE]>
+<link rel="stylesheet" href="ie.css" type="text/css" />
+<![endif]-->
+<script language="Javascript">
+   var timers = Array();
+
+   function hideSubmenuDo(submenu_layer_id){
+       document.getElementById(submenu_layer_id).style.display = 'none';
+   }
+
+   function hideSubmenu(submenu_layer_id){
+       timers[submenu_layer_id] = setTimeout("hideSubmenuDo('"+submenu_layer_id+"')", 1000);
+
+       return false;
+   }
+
+   function showSubmenu(submenu_layer_id){
+
+       for (var tmp in timers){
+           if (tmp!=submenu_layer_id){
+               hideSubmenuDo(tmp);
+               clearTimeout(timers[tmp]);
+           }
+       }
+
+       document.getElementById(submenu_layer_id).style.display = 'block';
+       clearTimeout(timers[submenu_layer_id]);
+
+       return false;
+   }
+
+</script>
+</head>
+<body>
+
+<center>
+     
+   <div class="main"><!-- all Site block Start -->
+      
+      <div class="hedaer"><!-- Header Start -->
+	 
+	 <!-- Logo and Title -->
+	 <div class="left logo">
+	    <a href="#"><img class="left" alt="" src="images/logo.png" /></a>
+	    <div class="left title_text"><!-- Title -->
+	       <h1>OAO Мироновский Хлебопродукт</h1>
+	       интернет-сайт IT отдела
+	       <div class="path">
+		  <a href="#" class="action">Интранет</a><a href="#">Интранет</a>
+	       </div>
+	    </div>
+	    <div class="cl"></div>
+	 </div>
+      
+	 <!-- login -->
+	 <div class="right login">
+	    <div class="left login_in">
+	       Логин <br/ >
+	       <input type="text" />
+	    </div>
+	    <div class="left login_ps">
+	       Пароль <br/ >
+	       <input type="password" />
+	    </div>
+	    <div class="left login_bt">
+	       <input type="image" src="images/login_butt.png" />
+	    </div>
+	    <div class="cl"></div>
+	    <div class="login_links">
+	       <a href="#">Регистрация</a> <a href="#">Забыли пароль?</a>
+	    </div>
+	 </div>
+      
+	 <div class="cl"></div>
+	 
+      </div><!-- Header End -->
+      
+	 <!-- Menu box --> 
+	 <div class="menubox">
+	       <img src="images/ug.png" alt="" class="left" />
+	       <img src="images/ug_2.png" alt="" class="right" />
+	       <div class="cl"></div>
+	    
+	    <center>
+	    <div class="menu">
+	       <ul>
+		  <li><a href="#" class="firstmenu1 menus2" onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');">Отделы</a>
+	       	     <div id="submenu1"  onMouseOver="return showSubmenu('submenu1');" onMouseOut="return hideSubmenu('submenu1');" class="submenu2">
+		     
+			 <a href="#">Условия сотрудничества</a>
+			 <a href="#">Условия сотрудничества</a>
+		     
+		     </div>
+		  </li>
+		  <li><a href="#" class="menus2" onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');">Документкация</a>
+	       	     <div id="submenu2"  onMouseOver="return showSubmenu('submenu2');" onMouseOut="return hideSubmenu('submenu2');" class="submenu2">
+		     
+			 <a href="#">Условия сотрудничества</a>
+			 <a href="#">Условия сотрудничества</a>
+		     
+		     </div>  
+		  </li>
+		  <li><a href="#" class="menus2" onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');">ЧАВО</a>
+	       	     <div id="submenu3"  onMouseOver="return showSubmenu('submenu3');" onMouseOut="return hideSubmenu('submenu3');" class="submenu2">
+		     
+			 <a href="#">Условия сотрудничества</a>
+			 <a href="#">Условия сотрудничества</a>
+		     
+		     </div>   
+		  </li>
+		  <li><a href="#" class="menus2" onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');">Задать вопрос</a>
+	       	     <div id="submenu4"  onMouseOver="return showSubmenu('submenu4');" onMouseOut="return hideSubmenu('submenu4');" class="submenu2">
+		     
+			 <a href="#">Условия сотрудничества</a>
+			 <a href="#">Условия сотрудничества</a>
+		     
+		     </div>   
+		  </li>
+		  <li class="search">
+		     <input type="text" class="search_from" /><input type="image" src="images/search_button.png" class="search_button" />
+		     <div class="cl"></div>
+		  </li>
+	       </ul>
+	       <div class="cl"></div>
+	    </div>
+	    <div class="allsub">
+
+	    </div>
+	    </center>
+	    
+	 </div>
+	 <!-- Menu box --> 
+      
+      <center><div class="pagebody"><!-- PageBody Start -->
+      
+	 <!-- Sideber -->
+	 <div class="left sidebar">
+	    
+	    <ul class="side_ul">
+	       <li class="blue_title">Отдел развития информационных систем (ОР)</li>
+	       <li><a href="#">Отдел технической поддержки (ОТП)</a></li>
+	       <li><a href="#">Отдел безопасности информационных систем и технологий</a></li>
+	       <li><a href="#">Отдел поддержки и развития учетной системы</a></li>
+	       <li><a href="#">Отдел управления нормативно справочной информацией</a></li>
+	    </ul>
+	    
+	    <div>
+	       <h3>География предприятий</h3><br /><br/>
+	       <span class="smalllet">Выберите предприятие</span><br />
+	       <select class="left">
+		  <option>- Общие вопросы -</option>
+		  <option>- Общие вопросы 2 -</option>
+	       </select>
+	       <input type="image" src="images/find.png" class="left" />
+	       <div class="cl"></div>
+	       <br />
+	       <img src="images/map.png" alt="" style="margin-left: -10px;" />
+	    </div>
+      
+	 </div>
+      
+	 <!-- content -->
+	 <div class="right content">
+	 
+	       <h1>Отдел развития информационных систем (ОР)</h1>
+	       <div class="card_big">
+		  <div class="card_in">
+		     <img src="images/photo_01.png" alt="" class="port">
+		     <br />
+		     Руководитель<br />
+		     <h4>Иванов Петр Сергеевич</h4>
+		     8(044) 546 5834
+		     <div class="add_info_2 left">
+		     <a href="#" class="daylist">Штатное расписание</a>
+		  </div>
+		     <div class="cl"></div>
+		  </div>
+	       </div>
+		     
+	       <div class="nameblock_txt">
+		  <h2>Об отделе</h2>
+		  <p>Огород, на котором к королевскому столу выращиваются овощи, зелень и ягоды, был заложен на территории королевской резиденции весной 2009 года</p>
+		  <a href="#">Подробней об отделе</a>
+	       </div>
+		     
+	       <div class="send_quest">
+		  <h2>Задать вопрос</h2><br />
+		  <div class="nameinpt left">Выберите тип вопроса</div>
+		  <div class="inpt left">
+		     <select>
+			<option>Общие вопросы</option>
+			<option>Карьера</option>
+		     </select>
+		  </div>
+		     <div class="cl"></div>
+		  <div class="nameinpt left">Контактый телефон</div>
+		  <div class="inpt left"><input type="text" /></div>
+		     <div class="cl"></div>
+		  <div class="nameinpt left">E-mail для подтверждения</div>
+		  <div class="inpt left"><input type="text" /></div>
+		     <div class="cl"></div>
+		  <div class="nameinpt left">Текст заявки</div>
+		  <div class="inpt2 left">
+		     <textarea></textarea><br />
+		     <input type="image" src="images/order_now.png" style="width: 128px; height: 27px;" /><a href="#" style="position: relative; top: -15px; left: 10px;">Очистить форму</a>	
+		  </div>
+	       </div>
+	    
+	 </div>
+	    
+	 <div class="cl"></div>
+	 
+      </div></center><!-- PageBody Start -->
+      
+   </div><!-- all Site block End -->
+   
+   <!-- Footer -->
+   <div class="footer">
+      <center><div class="footer_in">
+	 <div class="foot_links left">
+	    <ul>
+	       <li class="first"><a href="#">Условия использования</a></li>
+	       <li><a href="#">Соглашение предоставления услуг</a></li>
+	       <li><a href="#">Конедициальность</a></li>
+	    </ul>
+	    <div class="cl"></div>
+	 </div>
+	 <div class="foot_copy right">
+	    <span class="smalllet">© 2009 ОАО «Мироновский хлебопродукт»</span>
+	 </div>
+	 <div class="cl"></div>
+      </div></center>
+   </div>
+
+</center>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* htmlcoding by macgera */
+
+/* reset */
+
+html, body, ul, ol, dl, li, td, th, form, blockquote, sup, sub, strong, strong, strike, small, big, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font: ;
+}
+
+p {
+    margin-top: 0;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse; margin: 0; padding: 0;
+}
+
+img {
+    border: none;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
+
+/* Struct */ 
+
+.half {
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.cl {
+    clear: both;
+    font-size: 0px;
+}
+
+/* global tags */
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.min {
+    min-width: 1000px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.ralign {
+    text-align: right;
+}

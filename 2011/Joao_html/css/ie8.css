@@ -1,0 +1,48 @@
+/* Author html/css Mihail Yakimenko mihailyakimenko.com выполнено for João Correia 2011 February */
+
+		.me_inp {
+			width: 178px;
+			height: 20px;
+			padding: 4px 10px 0 10px;
+			border: 1px solid #c6bbb4;
+			color: #392c1f;
+		}
+                
+.welcome {
+	padding: 30px 30px 30px 26px;
+}
+
+.carouselbox {
+    margin-top: -12px;
+}
+
+			.cy_title {
+				width: 230px;
+				float: left;
+				padding: 22px 20px 0 45px;
+			}
+				.cy_title h4.cy_big {
+					font-size: 2.6em;
+					font-weight: bold;
+				}
+				.cy_title p {
+					margin-top: 8px;
+					font-size: 12pt;
+				}
+					.cy_sub {
+						display: block;
+                                                position: relative;
+                                                top: -4px;
+                                                margin: 10px 0 0 0;
+						font-size: 7pt;
+						text-transform: uppercase;
+					}
+                                        
+.footer {
+    margin-bottom: -12px;
+	color: #fff;
+	padding: 30px 0 10px 40px;
+	background: #52452f url(../images/footer.png) repeat-x top;
+	font-size: .92em;
+	overflow: hidden;
+}

@@ -1,0 +1,13 @@
+#container {
+    width: 1017px;
+    width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1017?'1017px':'100%');
+}
+
+#menuandsearch ul {
+    margin: 27px 0 0 0;
+    list-style: none;
+}
+
+.fuckingie {
+    margin-bottom: -27px;
+}

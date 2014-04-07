@@ -1,0 +1,544 @@
+/* htmlcoding by macgera */
+
+body {margin: 0; padding:0px; background: #fff url(images/body.png) repeat-x top; color:#686868; font-family: Arial, Tahoma; font-size: 8pt;}
+
+/*---Global tags---*/
+img {border:0;}
+form {padding:0; margin:0;}
+
+a {color:#0069bf; text-decoration:underline;}
+a:hover {text-decoration:none;}
+
+h1, h2, h3, h4 {margin: 0;}
+h1 {color: #000;}
+h2 {color: #000;}
+h3 {color: #000;}
+h4 {}
+
+ul {margin: 0; padding: 0; list-style: none;}
+ul li {}
+
+p {}
+
+table {border-collapse: collapse; margin: 0; padding: 0;}
+td {margin: 0; padding: 0; vertical-align: top;}
+th {text-align: left; vertical-align: top;}
+
+quote {padding: 5px;border: 1px dashed gray;background: white;margin-bottom: 15px;}
+
+div {text-align: left;}
+
+.left {float: left;}
+.right {float: right;}
+
+.half {width: 50%;}
+
+.red {
+    color: #ff0000;
+}
+
+.wh {
+    color: #fff;
+}
+
+.gray {
+    color: gray;
+}
+
+.cl {clear:both; font-size:0;}
+
+/* End global tags */
+
+.main {
+    width: 981px;
+}
+
+.hedaer {
+    font-size: 8pt;
+    height: 150px;
+}
+
+.title_text {
+    padding-left: 39px;
+    padding-top: 32px;
+}
+
+.title_text h1 {
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.changes {
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 25px;
+    padding-left: 16px;
+    background: url(images/clock.png) no-repeat center left;
+}
+
+.path {
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 25px;
+}
+
+.path a {
+    margin-right: 10px;
+}
+
+.path a.action {
+    background: #d9e8f6;
+    padding: 5px;
+    color: #5f5f5f;
+    text-decoration: none;
+}
+
+.login {
+    padding-top: 45px;
+}
+
+.login_links {
+    padding-top: 12px;
+    padding-left: 1px;
+}
+
+.login_links a {
+    margin-right: 16px;
+}
+
+.login input {
+    width: 105px;
+}
+
+.login_in {
+    width: 107px;
+    margin-right: 7px;
+}
+
+.login_ps {
+    width: 107px;
+}
+
+.login_bt {
+    width: 30px;
+    padding-top: 18px;
+    padding-left: 9px;
+}
+
+.login_bt input {
+    width: 12px;
+    height: 15px;
+}
+
+.menubox {
+    height: 61px;
+    background: #fff;
+}
+
+.menu {
+    width: 960px;
+    height: 51px;
+    background: url(images/menu.png) repeat-x;
+}
+
+.menu ul li {
+    float: left;
+    height: 51px;
+    padding-top: 9px;
+}
+
+.menu ul li:hover {
+    background:url(images/menu_ovr_2.png) repeat-x;
+}
+
+.menu ul li.search {
+    float: left;
+    height: 48px;
+    padding-top: 12px;
+    padding-left: 5px;
+    background: url(images/search.png) no-repeat 0 0;
+}
+
+.menu ul li.search:hover {
+    float: left;
+    height: 48px;
+    padding-top: 12px;
+    padding-left: 5px;
+    background: url(images/search.png) no-repeat 0 0;
+}
+
+.menu ul li.search input {
+    float: left;
+}
+
+.search_from {
+    width: 239px;    
+}
+
+.search_button {
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+
+.submenu {
+    width: 154px;
+    display: none;
+    background: #71a400;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.submenu a {
+    color: #fff;
+    display: block;
+    padding-bottom: 17px;
+    text-decoration: underline;
+    font-size: 8.2pt;
+    font-weight: bold;
+}
+
+.submenu2 {
+    width: 133px;
+    display: none;
+    background: #71a400;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.submenu2 a {
+    color: #fff;
+    display: block;
+    padding-bottom: 17px;
+    text-decoration: underline;
+    font-size: 8.2pt;
+    font-weight: bold;
+}
+
+a.menus {
+    border-left: 1px solid #a1c700;
+    border-right: 1px solid #558b00;
+    display: block;
+    height: 21px;
+    width: 176px;
+    padding: 6px 0 0 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11pt;
+    background: url(images/menu_a.png) no-repeat 168px 14px;
+}
+
+a.menus2 {
+    border-left: 1px solid #a1c700;
+    border-right: 1px solid #558b00;
+    display: block;
+    height: 21px;
+    width: 154px;
+    padding: 6px 0 0 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11pt;
+    background: url(images/menu_a.png) no-repeat 140px 14px;
+}
+
+a.firstmenu1 {
+    border-left: none;
+    border-right: 1px solid #558b00;
+}
+
+a.lastmenu1 {
+    border-left: 1px solid #a1c700;
+    border-right: none;
+}
+
+.pagebody {
+    width: 960px;
+    padding-top: 36px;
+    padding-bottom: 69px;
+    border-bottom: 5px solid #cccccc;
+}
+
+.sidebar {
+    width: 194px;
+    padding-left: 16px;
+}
+
+.blue_croft {
+    border-top: 4px solid #ccdded;
+    padding-top: 4px;
+}
+
+.blue_croft ul {
+    margin: 10px 0 10px 0;
+}
+
+.blue_croft a {
+    font-weight: bold;
+}
+
+.blue_croft select {
+    width: 175px;
+    margin: 5px 0 5px 0;
+}
+
+.blue_croft input {
+    margin: 5px 0 5px 0;
+}
+
+.order {
+    width: 190px;
+    height: 56px;
+    padding: 9px 0 0 8px;
+    background: url(images/order.png) no-repeat;
+    margin: 30px 0 30px 0;
+    font-weight: bold;
+}
+
+.order_inputs {
+    padding-top: 9px;
+}
+
+.ord_in {
+    margin-right: 4px;
+}
+
+.phone {
+    font-size: 17pt;
+}
+
+.greencode {
+    color: #86b400;
+}
+
+.order_now {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.order_now input {
+    width: 189px;
+    margin: 5px 0 5px 0;
+}
+
+.order_now select {
+    width: 189px;
+    margin: 5px 0 5px 0;
+}
+
+.order_now textarea {
+    width: 189px;
+    height: 169px;
+    margin: 5px 0 5px 0;
+}
+
+.oreder_title {
+    padding-left: 20px;
+    background: url(images/order_title.png) no-repeat left center;
+}
+
+.side_ul li {
+    padding: 4px 10px 4px 3px;
+    margin-bottom: 20px;
+}
+
+.side_ul li.blue_title {
+    margin-left: -13px;
+    background: #ecf3fa;
+    padding: 4px 10px 4px 16px;
+}
+
+.content {
+    width: 695px;
+    padding-right: 11px;
+    line-height: 160%;
+}
+
+.send_quest {
+    margin-top: 22px;
+    padding-top: 25px;
+    border-top: 1px solid #dddddd;
+}
+
+.send_quest input {
+    width: 280px;
+    margin: 5px 0 5px 0;
+}
+
+.send_quest select {
+    width: 392px;
+    margin: 5px 0 5px 0;
+}
+
+.nameinpt {
+    width: 141px;
+    height: 32px;
+    padding-right: 5px;
+    text-align: right;
+    padding-top: 3px;
+}
+
+.inpt {
+    width: 395px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.inpt2 textarea {
+    width: 280px;
+    height: 118px;
+    margin: 5px 0 5px 0;
+}
+
+.inpt2 {
+    width: 395px;
+    padding-left: 5px;
+}
+
+.nameblock {
+    width: 325px;
+    padding-bottom: 30px;
+}
+
+.nameblock H2 {
+    padding-bottom: 10px;
+}
+
+.nameblock input {
+    margin: 10px 0 10px 0;
+}
+
+.card {
+    width: 293px;
+    border-bottom: 1px solid #d8d6c9;
+    border-left: 1px solid #f1f2ed;
+    border-right: 1px solid #f1f2ed;
+    background: #f9f6e3;
+    padding: 15px;
+}
+
+.card_big {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d8d6c9;
+    border-left: 1px solid #f1f2ed;
+    border-right: 1px solid #f1f2ed;
+    background: #f9f6e3;
+    padding: 15px;
+}
+
+.port {
+    float: left;
+    margin-right: 20px;
+}
+
+.card_in {
+    color: #4f4f4f;
+}
+
+.card_in_2 {
+    color: #a4a4a4;
+}
+
+.card_in H4 {
+    font-size: 11pt;
+    color: #000;
+}
+
+.add_info {
+    border-top: 1px solid #e3e1cf;
+    margin-top: 16px;
+    padding-top: 11px;
+}
+
+.add_info_2 {
+    margin-top: 16px;
+    padding-top: 11px;
+}
+
+.add_info a {
+    font-weight: bold;
+}
+
+.daylist {
+    display: block;
+    background: url(images/task.png) no-repeat;
+    padding-left: 22px;
+}
+
+.docs {
+    display: block;
+    background: url(images/docs.png) no-repeat;
+    padding-left: 22px;
+}
+
+.nameblock_links {
+    padding-bottom: 5px;
+}
+
+.nameblock_links a {
+    display: block;
+    width: 97px;
+    float: left;
+}
+
+.links {
+    width: 222px;
+    float: left;
+}
+
+.links ul {
+    margin: 10px 0 10px 0;
+}
+
+.links ul li {
+    margin: 0 0 7px 0;
+    padding-left: 8px;
+    background: url(images/list.png) no-repeat 0 10px;
+}
+
+.helpicon {
+    background: url(images/helpicon.png) no-repeat;
+    padding-left: 22px;
+    padding-top: 3px;
+}
+
+.planicon {
+    background: url(images/planicon.png) no-repeat;
+    padding-left: 22px;
+    padding-top: 3px;
+}
+
+.partnersicon {
+    background: url(images/partnersicon.png) no-repeat;
+    padding-left: 22px;
+    padding-top: 3px;
+}
+
+.footer {
+    border-top: 1px solid #cccccc;
+    padding-bottom: 30px;
+}
+
+.footer_in {
+    width: 960px;
+    padding-top: 18px;
+}
+
+.foot_links ul li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #0169c0;
+}
+
+.foot_links ul li.first {
+    padding-left: 0;
+    border-left: none;
+}

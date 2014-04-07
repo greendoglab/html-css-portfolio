@@ -1,0 +1,26 @@
+.all {
+    width: 961px;
+}
+
+.put {
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+
+.footer {
+    background: url(images/footer.png) no-repeat center;
+    height: 100px;
+    padding-top: 97px;
+    color: #a2a2a2;
+}
+
+.foot1 {
+    width: 378px;
+    color: #7b7b7b;
+}
+
+.foot2 {
+    width: 240px;
+    text-align: right;
+}
